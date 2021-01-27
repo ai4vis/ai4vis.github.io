@@ -1,0 +1,13 @@
+sectionNumber,title,label,remark
+1,Introduction,,
+2, Background and related work,,
+3, Analysis of SQL resultsets,Recommend[Hybrid],
+3.1, Determining the variables of interest ,Recommend[Data][Opt],"Based on these heuristics"
+3.2, Selecting the appropriate chart-type,Recommend[Encoding][Opt],"We can capture the possible user intent by analyzing the kinds of variables selected and the type of the dependent and independent variables."
+3.3, Feature identification for SQL queries,Recommend[Encoding][Prediction],"features are used to train a chart recommendation system"
+4 ,Analysis of non-SQL tabular data,Recommend[Hybrid],
+4.1 ,Determining the variables of interest,Recommend[Data][Opt],
+4.2, Feature identification from caption strings,Recommend[Encoding][Prediction],"These features are then used to train a recommender to recommend the right chart"
+5, Architecture of DataVizard,
+6, Experimental Results,,
+7, Conclusions and future work,,

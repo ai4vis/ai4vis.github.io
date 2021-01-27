@@ -1,0 +1,11 @@
+sectionNumber,title,label,remark
+1,Introduction,,
+2,RELATED WORK
+2.1,Assessment of Visualization Design and Encoding
+2.2,Assessment of Generic Images
+3,METHOD
+3.1,Learning Representations using VAE,Feature[Learning][Graphics],"the trained VAE can encode any new input visualizations into low-dimensional feature vectors"
+3.2,Task-Specific Visualization Assessment,Assess[Score][ML],"train task-specific assessment model based on machine learning techniques"
+4,EXPERIMENTS
+5,DISCUSSION
+6,CONCLUSION

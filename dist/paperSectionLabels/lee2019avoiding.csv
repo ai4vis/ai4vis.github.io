@@ -1,0 +1,14 @@
+sectionNumber,title,label,remark
+1, Introduction,,
+2,Problem Formulation,,
+2.1,Manual Exploration: Approach and Challenges,,
+2.2,The ``3S'' Design Principles,Assess[Score][H],"{Define cost functions for safety, saliency, and succinctness}"
+3, VisPilot: Our Solution,Recommend[Data][Opt],"how the frontier greedy algorithm incrementally builds up the solution by selecting the node or visualization that leads to the highest gain"
+4, Evaluation Study Methods,,
+5, Study Results,,
+6, Discussion of Study Results,,
+6.1, The Choice of Contextual References,,
+6.2, Interpretability of Hierarchical Layouts,,
+6.3,Limitations of VisPilot,,
+7, Other Related Work,,
+8, Conclusion,,

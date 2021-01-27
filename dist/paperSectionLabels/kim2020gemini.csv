@@ -1,0 +1,14 @@
+sectionNumber,title,label,remark
+1,Introduction,,
+2,Related Work,,
+2.1,Animated Transitions,,
+2.2,Event Structure In Perceptual Psychology,,
+2.3,Declarative Grammars for Visualization,,
+2.4,Automated Visualization Design,,
+3,Preliminary Interviews on Animation Design,,
+4,The Gemini Grammar: Motivation and Design,,
+5,Recommending Animated Transitions,Recommend[Encoding][Opt]|Assess[Score][H],"Gemini evaluates all enumerated timelines using a scoring function that attempts to quantify the complexity of a Gemini animation specification. Gemini can recommend animation designs by systematically enumerating and ranking transitions"
+6,Evaluation: Replicating User-created D3 Animated Transitions Using Gemini,,
+6.1,Study Design,,
+6.2,Results,,
+7,Future Work and Conclusion,,

@@ -1,0 +1,1307 @@
+[
+    {
+        "Paper": "Text-to-viz: Automatic generation of infographics from proportion-related natural language statements",
+        "Venue": "InfoVis",
+        "Year": "2019",
+        "Key": "cui2019text",
+        "doi": "10.1109/TVCG.2019.2934785",
+        "Data": "Program",
+        "Application": "AutoGen (context)",
+        "labels": [
+            "NaturalLanguage",
+            "Recommend",
+            "Assess",
+            "InterfaceDevelopment"
+        ]
+    },
+    {
+        "Paper": "Vizbywiki: Mining data visualizations from the web to enrich news articles",
+        "Venue": "WWW",
+        "Year": "2018",
+        "Key": "lin2018vizbywiki",
+        "doi": "10.1145/3178876.3186135",
+        "Data": "Graphics",
+        "Application": "AutoGen (context)",
+        "labels": [
+            "NaturalLanguage",
+            "ReverseEngineering",
+            "FeatureLearning",
+            "Assess"
+        ]
+    },
+    {
+        "Paper": "Deepeye: Creating good data visualizations by keyword search",
+        "Venue": "SIGMOD",
+        "Year": "2018",
+        "Key": "luo2018deepeyekeyword",
+        "doi": "10.5441/002/edbt.2018.42",
+        "Data": "Program",
+        "Application": "AutoGen (context)",
+        "labels": [
+            "NaturalLanguage",
+            "Recommend",
+            "Summarization",
+            "Assess",
+            "InterfaceDevelopment"
+        ]
+    },
+    {
+        "Paper": "Datavizard: Recommending visual presentations for structured data",
+        "Venue": "WebDB",
+        "Year": "2018",
+        "Key": "ananthanarayanan2018datavizard",
+        "doi": "10.1145/3201463.3201465",
+        "Data": "Program",
+        "Application": "AutoGen (context) | AutoGen (data)",
+        "labels": [
+            "Recommend",
+            "FeatureEngineering",
+            "NaturalLanguage"
+        ]
+    },
+    {
+        "Paper": "Calliope: Automatic Visual Data Story Generation from a Spreadsheet",
+        "Venue": "InfoVis",
+        "Year": "2020",
+        "Key": "shi2020calliope",
+        "doi": "10.1109/tvcg.2020.3030403",
+        "Data": "Program",
+        "Application": "AutoGen (data)",
+        "labels": [
+            "Recommend",
+            "InterfaceDevelopment"
+        ]
+    },
+    {
+        "Paper": "Vizml: A machine learning approach to visualization recommendation",
+        "Venue": "CHI",
+        "Year": "2019",
+        "Key": "hu2019vizml",
+        "doi": "10.1145/3290605.3300358",
+        "Data": "Program (spec)",
+        "Application": "AutoGen (data)",
+        "labels": [
+            "FeatureEngineering",
+            "Recommend"
+        ]
+    },
+    {
+        "Paper": "Data2vis: Automatic generation of data visualizations using sequence-to-sequence recurrent neural networks.",
+        "Venue": "CGA",
+        "Year": "2019",
+        "Key": "dibia2019data2vis",
+        "doi": "10.1109/MCG.2019.2924636",
+        "Data": "Program (spec)",
+        "Application": "AutoGen (data)",
+        "labels": [
+            "FeatureLearning",
+            "Recommend"
+        ]
+    },
+    {
+        "Paper": "Datashot: Automatic generation of fact sheets from tabular data",
+        "Venue": "InfoVis",
+        "Year": "2019",
+        "Key": "wang2019datashot",
+        "doi": "10.1109/TVCG.2019.2934398",
+        "Data": "Program",
+        "Application": "AutoGen (data)",
+        "labels": [
+            "Recommend"
+        ]
+    },
+    {
+        "Paper": "Deepeye: towards automatic data visualization",
+        "Venue": "ICDE",
+        "Year": "2018",
+        "Key": "luo2018deepeye",
+        "doi": "10.1109/ICDE.2018.00019",
+        "Data": "Program",
+        "Application": "AutoGen (data)",
+        "labels": [
+            "Assess",
+            "Recommend"
+        ]
+    },
+    {
+        "Paper": "Augmenting visualizations with interactive data facts to facilitate interpretation and communication",
+        "Venue": "InfoVis",
+        "Year": "2018",
+        "Key": "srinivasan2018augmenting",
+        "doi": "10.1109/TVCG.2018.2865145",
+        "Data": "Program",
+        "Application": "AutoGen (data)",
+        "labels": [
+            "Recommend",
+            "InterfaceDevelopment",
+            "Visualizations",
+            "Indexing"
+        ]
+    },
+    {
+        "Paper": "Foresight: Recommending visual insights",
+        "Venue": "VLDB",
+        "Year": "2017",
+        "Key": "demiralp2017foresight",
+        "doi": "10.14778/3137765.3137813",
+        "Data": "Program",
+        "Application": "AutoGen (data)",
+        "labels": [
+            "Recommend"
+        ]
+    },
+    {
+        "Paper": "Show me: Automatic presentation for visual analysis",
+        "Venue": "TOG",
+        "Year": "2007",
+        "Key": "mackinlay2007show",
+        "doi": "10.1109/TVCG.2007.70594",
+        "Data": "Program",
+        "Application": "AutoGen (data)",
+        "labels": [
+            "Recommend"
+        ]
+    },
+    {
+        "Paper": "Automating the design of graphical presentations of relational information",
+        "Venue": "TOG",
+        "Year": "1986",
+        "Key": "mackinlay1986automating",
+        "doi": "10.1145/22949.22950",
+        "Data": "Program",
+        "Application": "AutoGen (data)",
+        "labels": [
+            "Recommend",
+            "Assess"
+        ]
+    },
+    {
+        "Paper": "DataSite: Proactive Visual Data Exploration with Computation of Insight-based Recommendations",
+        "Venue": "IV",
+        "Year": "2018",
+        "Key": "cui2019datasite",
+        "doi": "10.1177/1473871618806555",
+        "Data": "Program",
+        "Application": "AutoGen (data)",
+        "labels": [
+            "Summarization",
+            "NaturalLanguage",
+            "InterfaceDevelopment",
+            "Recommend"
+        ]
+    },
+    {
+        "Paper": "Efficient recommendation of aggregate data visualizations",
+        "Venue": "TKDE",
+        "Year": "2018",
+        "Key": "ehsan2017efficient",
+        "doi": "10.1109/TKDE.2017.2765634",
+        "Data": "Program",
+        "Application": "AutoGen (data)",
+        "labels": [
+            "Assess",
+            "Recommend"
+        ]
+    },
+    {
+        "Paper": "Formalizing visualization design knowledge as constraints: Actionable and extensible models in draco",
+        "Venue": "InfoVis",
+        "Year": "2018",
+        "Key": "moritz2018formalizing",
+        "doi": "10.1109/TVCG.2018.2865240",
+        "Data": "Program",
+        "Application": "AutoGen (data)",
+        "labels": [
+            "Assess",
+            "Recommend"
+        ]
+    },
+    {
+        "Paper": "Profiler: integrated statistical analysis and visual- ization for data quality assessmen",
+        "Venue": "AVI",
+        "Year": "2012",
+        "Key": "kandel2012profiler",
+        "doi": "10.1145/2254556.2254659",
+        "Data": "Program",
+        "Application": "AutoGen (data)",
+        "labels": [
+            "Recommend",
+            "Compare",
+            "InterfaceDevelopment"
+        ]
+    },
+    {
+        "Paper": "Towards a general-purpose query language for visualization recommendation",
+        "Venue": "HILDA",
+        "Year": "2016",
+        "Key": "wongsuphasawat2016towards",
+        "doi": "10.1145/2939502.2939506",
+        "Data": "Program",
+        "Application": "AutoGen (data)",
+        "labels": [
+            "Assess",
+            "Recommend",
+            "Representation"
+        ]
+    },
+    {
+        "Paper": "VizDeck: self-organizing dashboards for visual analytics",
+        "Venue": "SIGMOD",
+        "Year": "2012",
+        "Key": "key2012vizdeck",
+        "doi": "10.1145/2213836.2213931",
+        "Data": "Program",
+        "Application": "AutoGen (data)",
+        "labels": [
+            "Assess"
+        ]
+    },
+    {
+        "Paper": "Voyager: Exploratory analysis via faceted browsing of visualization recommendations",
+        "Venue": "InfoVis",
+        "Year": "2015",
+        "Key": "wongsuphasawat2015voyager",
+        "doi": "10.1109/TVCG.2015.2467191",
+        "Data": "Program",
+        "Application": "AutoGen (data)",
+        "labels": [
+            "Recommend"
+        ]
+    },
+    {
+        "Paper": "Gemini: A Grammar and Recommender System for Animated Transitions in Statistical Graphics",
+        "Venue": "InfoVis",
+        "Year": "2020",
+        "Key": "kim2020gemini",
+        "doi": "10.1109/TVCG.2020.3030360",
+        "Data": "Program",
+        "Application": "AutoGen (design)",
+        "labels": [
+            "Recommend",
+            "Assess"
+        ]
+    },
+    {
+        "Paper": "Visualization by example",
+        "Venue": "PACMPL",
+        "Year": "2020",
+        "Key": "wang2019visualization",
+        "doi": "10.1145/3371117",
+        "Data": "Program",
+        "Application": "AutoGen (design)",
+        "labels": [
+            "ReverseEngineering",
+            "Recommend"
+        ]
+    },
+    {
+        "Paper": "LADV: Deep Learning Assisted Authoring of Dashboard Visualizations from Images and Sketches",
+        "Venue": "TVCG",
+        "Year": "2020",
+        "Key": "ma2020ladv",
+        "doi": "10.1109/tvcg.2020.2980227",
+        "Data": "Graphics",
+        "Application": "AutoGen (design)",
+        "labels": [
+            "DatasetCollection",
+            "ReverseEngineering",
+            "Recommend"
+        ]
+    },
+    {
+        "Paper": "DiVE: diversifying view recommendation for visual data exploration",
+        "Venue": "CIKM",
+        "Year": "2018",
+        "Key": "mafrur2018dive",
+        "doi": "10.1145/3269206.3271744",
+        "Data": "Program",
+        "Application": "AutoGen (ref)",
+        "labels": [
+            "Compare",
+            "Recommend"
+        ]
+    },
+    {
+        "Paper": "Dziban: Balancing agency & automation in visualization design via anchored recommendations",
+        "Venue": "CHI",
+        "Year": "2020",
+        "Key": "lin2020dziban",
+        "doi": "10.1145/3313831.3376880",
+        "Data": "Program",
+        "Application": "AutoGen (ref)",
+        "labels": [
+            "Compare",
+            "Assess",
+            "Recommend"
+        ]
+    },
+    {
+        "Paper": "Interactive cleaning for progressive visualization through composite questions",
+        "Venue": "ICDE",
+        "Year": "2020",
+        "Key": "luo2020interactive",
+        "doi": "10.1109/ICDE48307.2020.00069",
+        "Data": "Program",
+        "Application": "AutoGen (ref)",
+        "labels": [
+            "Recommend",
+            "Compare",
+            "InterfaceDevelopment"
+        ]
+    },
+    {
+        "Paper": "Steerable Self-driving Data Visualization",
+        "Venue": "TKDE",
+        "Year": "2020",
+        "Key": "luo2020steerable",
+        "doi": "10.1109/tkde.2020.2981464",
+        "Data": "Program",
+        "Application": "AutoGen (ref)",
+        "labels": [
+            "",
+            "FeatureEngineering",
+            "Assess",
+            "Recommend",
+            "Compare"
+        ]
+    },
+    {
+        "Paper": "Avoiding drill-down fallacies with VisPilot: Assisted exploration of data subsets",
+        "Venue": "IUI",
+        "Year": "2019",
+        "Key": "lee2019avoiding",
+        "doi": "10.1145/3301275.3302307",
+        "Data": "Program",
+        "Application": "AutoGen (ref)",
+        "labels": [
+            "Assess",
+            "Compare",
+            "InterfaceDevelopment"
+        ]
+    },
+    {
+        "Paper": "Duet: Helping data analysis novices conduct pairwise comparisons by minimal specification",
+        "Venue": "VAST",
+        "Year": "2018",
+        "Key": "law2018duet",
+        "doi": "10.1109/TVCG.2018.2864526",
+        "Data": "Program",
+        "Application": "AutoGen (ref)",
+        "labels": [
+            "InterfaceDevelopment",
+            "Compare"
+        ]
+    },
+    {
+        "Paper": "Voyager 2: Augmenting visual analysis with partial view specification",
+        "Venue": "CHI",
+        "Year": "2017",
+        "Key": "wongsuphasawat2017voyager",
+        "doi": "10.1145/3025453.3025768",
+        "Data": "Program",
+        "Application": "AutoGen (ref)",
+        "labels": [
+            "InterfaceDevelopment",
+            "Assess",
+            "Recommend"
+        ]
+    },
+    {
+        "Paper": "Effortless Data Exploration with Zenvisage: An Expressive and Interactive Visual Analytics System",
+        "Venue": "VLDB",
+        "Year": "2016",
+        "Key": "siddiqui2016effortless",
+        "doi": "10.14778/3025111.3025126",
+        "Data": "Program",
+        "Application": "AutoGen (ref)",
+        "labels": [
+            "Representation"
+        ]
+    },
+    {
+        "Paper": "Seedb: Efficient data-driven visualization recommendations to support visual analytics",
+        "Venue": "VLDB",
+        "Year": "2015",
+        "Key": "vartak2015seedb",
+        "doi": "10.14778/2831360.2831371",
+        "Data": "Program",
+        "Application": "AutoGen (ref)",
+        "labels": [
+            "Compare",
+            "Recommend"
+        ]
+    },
+    {
+        "Paper": "Retrieve-Then-Adapt: Example-based Automatic Generation for Proportion-related Infographics",
+        "Venue": "InfoVis",
+        "Year": "2020",
+        "Key": "qian2020retrieve",
+        "doi": "10.1109/TVCG.2020.3030448",
+        "Data": "Graphics",
+        "Application": "AutoGen(Design)",
+        "labels": [
+            "Indexing",
+            "Recommend",
+            "Assess"
+        ]
+    },
+    {
+        "Paper": "NL4DV: A Toolkit for Generating Analytic Specifications for Data Visualization from Natural Language Queries",
+        "Venue": "InfoVis",
+        "Year": "2020",
+        "Key": "narechania2020nl4dv",
+        "doi": "10.1109/TVCG.2020.3030378",
+        "Data": "Program",
+        "Application": "AutoGen(nli)",
+        "labels": [
+            "NaturalLanguage",
+            "Recommend"
+        ]
+    },
+    {
+        "Paper": "FlowSense: A natural language interface for visual data exploration within a dataflow system",
+        "Venue": "VAST",
+        "Year": "2019",
+        "Key": "yu2019flowsense",
+        "doi": "10.1109/TVCG.2019.2934668",
+        "Data": "",
+        "Application": "AutoGen(nli)",
+        "labels": [
+            "NaturalLanguage"
+        ]
+    },
+    {
+        "Paper": "Narvis: Authoring Narrative Slideshows for Introducing Data Visualization Designs",
+        "Venue": "InfoVis",
+        "Year": "2018",
+        "Key": "wang2018narvis",
+        "doi": "10.1109/TVCG.2018.2865232",
+        "Data": "Graphics (Vector)",
+        "Application": "Enhance (annotations)",
+        "labels": [
+            "ReverseEngineering",
+            "InterfaceDevelopment"
+        ]
+    },
+    {
+        "Paper": "Automatic Annotation Synchronizing with Textual Description for Visualization",
+        "Venue": "CHI",
+        "Year": "2020",
+        "Key": "lai2020automatic",
+        "doi": "10.1145/3313831.3376443",
+        "Data": "Graphics",
+        "Application": "Enhance (annotations)",
+        "labels": [
+            "ReverseEngineering",
+            "NaturalLanguage"
+        ]
+    },
+    {
+        "Paper": "Temporal Summary Images: An Approach to Narrative Visualization via Interactive Annotation Generation and Placement",
+        "Venue": "InfoVis",
+        "Year": "2016",
+        "Key": "bryan2016temporal",
+        "doi": "10.1109/TVCG.2016.2598876",
+        "Data": "Program",
+        "Application": "Enhance (annotations)",
+        "labels": [
+            "Summarization",
+            "Assess",
+            "Recommend"
+        ]
+    },
+    {
+        "Paper": "Interaction+: Interaction enhancement for web-based visualizations",
+        "Venue": "PacificVis",
+        "Year": "2017",
+        "Key": "lu2017interaction+",
+        "doi": "10.1109/PACIFICVIS.2017.8031580",
+        "Data": "Graphics (Vector)",
+        "Application": "Enhance (Overlay)",
+        "labels": [
+            "ReverseEngineering"
+        ]
+    },
+    {
+        "Paper": "Graphical Overlays: Using Layered Elements to Aid Chart Reading",
+        "Venue": "InfoVis",
+        "Year": "2012",
+        "Key": "kong2012graphical",
+        "doi": "10.1109/TVCG.2012.229",
+        "Data": "Graphics",
+        "Application": "Enhance (Overlay)",
+        "labels": [
+            "ReverseEngineering"
+        ]
+    },
+    {
+        "Paper": "LEAF-QA: Locate encode & attend for figure question answering",
+        "Venue": "WACV",
+        "Year": "2020",
+        "Key": "chaudhry2020leaf",
+        "doi": "10.1109/WACV45572.2020.9093269",
+        "Data": "Graphics",
+        "Application": "Enhance (qa)",
+        "labels": [
+            "DatasetCollection",
+            "Summarization",
+            "ReverseEngineering",
+            "FeatureLearning"
+        ]
+    },
+    {
+        "Paper": "PlotQA: Reasoning over Scientific Plots",
+        "Venue": "WACV",
+        "Year": "2018",
+        "Key": "methani2020plotqa",
+        "doi": "10.1109/WACV45572.2020.9093523",
+        "Data": "Graphics",
+        "Application": "Enhance (qa)",
+        "labels": [
+            "ReverseEngineering",
+            "NaturalLanguage",
+            "Summarization"
+        ]
+    },
+    {
+        "Paper": "FigureQA: An annotated figure dataset for visual reasoning",
+        "Venue": "ICLR workshop",
+        "Year": "2018",
+        "Key": "kahou2017figureqa",
+        "doi": "NA",
+        "Data": "",
+        "Application": "Enhance (qa)",
+        "labels": [
+            "DatasetCollection",
+            "FeatureLearning",
+            "Summarization"
+        ]
+    },
+    {
+        "Paper": "Figurenet: A deep learning model for question-answering on scientific plots",
+        "Venue": "IJCNN",
+        "Year": "2019",
+        "Key": "reddy2019figurenet",
+        "doi": "10.1109/IJCNN.2019.8851830",
+        "Data": "",
+        "Application": "Enhance (qa)",
+        "labels": [
+            "FeatureLearning",
+            "Summarization"
+        ]
+    },
+    {
+        "Paper": "Answering Questions about Charts and Generating Visual Explanations",
+        "Venue": "CHI",
+        "Year": "2020",
+        "Key": "kim2020answering",
+        "doi": "10.1145/3313831.3376467",
+        "Data": "",
+        "Application": "Enhance (qa)",
+        "labels": [
+            "ReverseEngineering",
+            "NaturalLanguage",
+            "Summarization"
+        ]
+    },
+    {
+        "Paper": "DVQA: Understanding data visualizations via question answering",
+        "Venue": "CVPR",
+        "Year": "2018",
+        "Key": "kafle2018dvqa",
+        "doi": "10.1109/CVPR.2018.00592",
+        "Data": "",
+        "Application": "Enhance (qa)",
+        "labels": [
+            "SyntheticScenes",
+            "DatasetCollection",
+            "FeatureLearning",
+            "Summarization"
+        ]
+    },
+    {
+        "Paper": "VisCode: Embedding Information in Visualization Images using Encoder-Decoder Network",
+        "Venue": "InfoVis",
+        "Year": "2020",
+        "Key": "zhang2020viscode",
+        "doi": "10.1109/TVCG.2020.3030343",
+        "Data": "Hybrid",
+        "Application": "Enhance (reuse)",
+        "labels": [
+            "Assess",
+            "Reasoning",
+            "FeatureLearning"
+        ]
+    },
+    {
+        "Paper": "MobileVisFixer: Tailoring Web Visualizations for Mobile Phones Leveraging an Explainable Reinforcement Learning Framework",
+        "Venue": "InfoVis",
+        "Year": "2020",
+        "Key": "wu2020mobilevisfixer",
+        "doi": "10.1109/tvcg.2020.3030423",
+        "Data": "Graphics (Vector)",
+        "Application": "Enhance (reuse)",
+        "labels": [
+            "ReverseEngineering",
+            "Assess",
+            "Recommend"
+        ]
+    },
+    {
+        "Paper": "Chartem: reviving chart images with data embedding",
+        "Venue": "InfoVis",
+        "Year": "2020",
+        "Key": "fu2020chartem",
+        "doi": "10.1109/TVCG.2020.3030343",
+        "Data": "Graphics",
+        "Application": "Enhance (reuse)",
+        "labels": [
+            "FeatureLearning",
+            "ReverseEngineering"
+        ]
+    },
+    {
+        "Paper": "Converting basic D3 charts into reusable style templates",
+        "Venue": "TVCG",
+        "Year": "2017",
+        "Key": "harper2017converting",
+        "doi": "10.1109/TVCG.2017.2659744",
+        "Data": "Graphics (Vector)",
+        "Application": "Enhance (reuse)",
+        "labels": [
+            "ReverseEngineering"
+        ]
+    },
+    {
+        "Paper": "ivolver: Interactive visual language for visualization extraction and reconstruction",
+        "Venue": "CHI",
+        "Year": "2016",
+        "Key": "mendez2016ivolver",
+        "doi": "10.1145/2858036.2858435",
+        "Data": "Graphics",
+        "Application": "Enhance (reuse)",
+        "labels": [
+            "Transformation",
+            "ReverseEngineering"
+        ]
+    },
+    {
+        "Paper": "Deconstructing and restyling d3 visualizations",
+        "Venue": "UIST",
+        "Year": "2014",
+        "Key": "harper2014deconstructing",
+        "doi": "10.1145/2642918.2647411",
+        "Data": "Graphics (Vector)",
+        "Application": "Enhance (reuse)",
+        "labels": [
+            "ReverseEngineering"
+        ]
+    },
+    {
+        "Paper": "Revision: Automated classification analysis and redesign of chart images",
+        "Venue": "UIST",
+        "Year": "2011",
+        "Key": "savva2011revision",
+        "doi": "10.1145/2047196.2047247",
+        "Data": "Graphics",
+        "Application": "Enhance (reuse)",
+        "labels": [
+            "ReverseEngineering",
+            "FeatureEngineering"
+        ]
+    },
+    {
+        "Paper": "Extracting and retargeting color mappings from bitmap images of visualizations",
+        "Venue": "InfoVis",
+        "Year": "2017",
+        "Key": "poco2017extracting",
+        "doi": "10.1109/TVCG.2017.2744320",
+        "Data": "Graphics",
+        "Application": "Enhance (reuse)|Enhance (Overlay)",
+        "labels": [
+            "DatasetCollection",
+            "ReverseEngineering"
+        ]
+    },
+    {
+        "Paper": "AutoCaption: An Approach to Generate Natural Language Description from Visualization Automatically",
+        "Venue": "PacificVis",
+        "Year": "2020",
+        "Key": "liu2020autocaption",
+        "doi": "10.1109/PacificVis48177.2020.1043",
+        "Data": "Graphics",
+        "Application": "Enhance (summary)",
+        "labels": [
+            "FeatureLearning",
+            "NaturalLanguage",
+            "Summarization"
+        ]
+    },
+    {
+        "Paper": "Visualizing for the non-visual: Enabling the visually impaired to use visualization",
+        "Venue": "EuroVis",
+        "Year": "2019",
+        "Key": "choi2019visualizing",
+        "doi": "10.1111/cgf.13686",
+        "Data": "Graphics",
+        "Application": "Enhance (summary)",
+        "labels": [
+            "ReverseEngineering"
+        ]
+    },
+    {
+        "Paper": "Chart-to-Text: Generating Natural Language Descriptions for Charts by Adapting the Transformer Model",
+        "Venue": "INLG",
+        "Year": "2020",
+        "Key": "obeid2020chart",
+        "doi": "arxiv.org/abs/2010.09142",
+        "Data": "Graphics",
+        "Application": "Enhance (summary)",
+        "labels": [
+            "Summarization"
+        ]
+    },
+    {
+        "Paper": "Summarizing Information Graphics Textually",
+        "Venue": "Computational Linguistics",
+        "Year": "2010",
+        "Key": "demir2012summarizing",
+        "doi": "10.1162/COLI_a_00091",
+        "Data": "Graphics",
+        "Application": "Enhance (summary)",
+        "labels": [
+            "ReverseEngineering",
+            "Summarization",
+            "NaturalLanguage"
+        ]
+    },
+    {
+        "Paper": "Scalable algorithms for scholarly figure mining and semantics",
+        "Venue": "SBD",
+        "Year": "2016",
+        "Key": "choudhury2016scalable",
+        "doi": "10.1145/2928294.2928305",
+        "Data": "Graphics",
+        "Application": "Enhance (summary)",
+        "labels": [
+            "DatasetCollection",
+            "ReverseEngineering",
+            "Summarization",
+            "NaturalLanguage"
+        ]
+    },
+    {
+        "Paper": "Significance of patterns in data visualisations",
+        "Venue": "KDD",
+        "Year": "2019",
+        "Key": "savvides2019significance",
+        "doi": "10.1145/3292500.3330994",
+        "Data": "Program",
+        "Application": "Assess",
+        "labels": [
+            "Assess"
+        ]
+    },
+    {
+        "Paper": "A system for understanding imaged infographics and its applications",
+        "Venue": "DocEng",
+        "Year": "2007",
+        "Key": "huang2007system",
+        "doi": "10.1145/1284420.1284427",
+        "Data": "",
+        "Application": "Enhance (Summary)",
+        "labels": [
+            "ReverseEngineering",
+            "Summarization"
+        ]
+    },
+    {
+        "Paper": "Figure Captioning with Relation Maps for Reasoning",
+        "Venue": "WACV",
+        "Year": "2020",
+        "Key": "chen2020figure",
+        "doi": "WACV45572.2020.9093592",
+        "Data": "",
+        "Application": "Enhance (Summary)",
+        "labels": [
+            "DatasetCollection",
+            "FeatureLearning",
+            "Summarization"
+        ]
+    },
+    {
+        "Paper": "Neural Caption Generation over Figures",
+        "Venue": "UbiComp/ISWC",
+        "Year": "2019",
+        "Key": "chen2019neural",
+        "doi": "10.1145/3341162.3345601",
+        "Data": "",
+        "Application": "Enhance (Summary)",
+        "labels": [
+            "FeatureLearning",
+            "Summarization"
+        ]
+    },
+    {
+        "Paper": "ChartSeer: Interactive Steering Exploratory Visual Analysis with Machine Intelligence",
+        "Venue": "VAST",
+        "Year": "2020",
+        "Key": "zhao2020chartseer",
+        "doi": "10.1109/TVCG.2020.3018724",
+        "Data": "Program",
+        "Application": "Vis Analysis (data)",
+        "labels": [
+            "FeatureLearning",
+            "Summarization",
+            "Compare"
+        ]
+    },
+    {
+        "Paper": "Chart constellations: Effective chart summarization for collaborative and multi-user analyses",
+        "Venue": "EuroVis",
+        "Year": "2018",
+        "Key": "xu2018chart",
+        "doi": "10.1111/cgf.13402",
+        "Data": "Program",
+        "Application": "Vis Analysis (data)",
+        "labels": [
+            "Compare",
+            "FeatureEngineering",
+            "FeatureLearning",
+            "InterfaceDevelopment"
+        ]
+    },
+    {
+        "Paper": "Viziometrics: Analyzing visual information in the scientific literature",
+        "Venue": "Big Data",
+        "Year": "2018",
+        "Key": "lee2017viziometrics",
+        "doi": "10.1109/tbdata.2017.2689038",
+        "Data": "Graphics",
+        "Application": "Vis Analysis (data)",
+        "labels": [
+            "ReverseEngineering",
+            "StatisticalAnalysis"
+        ]
+    },
+    {
+        "Paper": "Vizassist: an interactive user assistant for visual data mining",
+        "Venue": "VC",
+        "Year": "2016",
+        "Key": "bouali2016vizassist",
+        "doi": "10.1007/s00371-015-1132-9",
+        "Data": "Program",
+        "Application": "AutoGen (data)",
+        "labels": [
+            "FeatureEngineering",
+            "Assess",
+            "Recommend"
+        ]
+    },
+    {
+        "Paper": "Color Crafting: Automating the Construction of Designer Quality Color Ramps",
+        "Venue": "InfoVis",
+        "Year": "2019",
+        "Key": "smart2020color",
+        "doi": "10.1109/TVCG.2019.2934284",
+        "Data": "Program",
+        "Application": "Vis Analysis (design mining)",
+        "labels": [
+            "DatasetCollection",
+            "FeatureEngineering",
+            "Recommend",
+            "InterfaceDevelopment"
+        ]
+    },
+    {
+        "Paper": "Beagle: Automated extraction and interpretation of visualizations from the web.",
+        "Venue": "CHI",
+        "Year": "2018",
+        "Key": "battle2018beagle",
+        "doi": "10.1145/3173574.3174168",
+        "Data": "Graphics (Vector)",
+        "Application": "Vis Analysis (design mining)",
+        "labels": [
+            "DatasetCollection",
+            "ReverseEngineering",
+            "FeatureEngineering"
+        ]
+    },
+    {
+        "Paper": "VizCommender: Computing Text-Based Similarity in Visualization Repositories for Content-Based Recommendations",
+        "Venue": "VAST",
+        "Year": "2020",
+        "Key": "oppermann2020vizcommender",
+        "doi": "10.1109/TVCG.2020.3030387",
+        "Data": "Program",
+        "Application": "Vis Analysis (retrieve)",
+        "labels": [
+            "FeatureEngineering",
+            "Compare"
+        ]
+    },
+    {
+        "Paper": "DiagramFlyer: A search engine for data-driven diagrams",
+        "Venue": "WWW",
+        "Year": "2015",
+        "Key": "chen2015diagramflyer",
+        "doi": "10.1145/2740908.2742831",
+        "Data": "Graphics",
+        "Application": "Vis Analysis (retrieve)",
+        "labels": [
+            "InterfaceDevelopment",
+            "Indexing"
+        ]
+    },
+    {
+        "Paper": "Learning style similarity for searching infographics",
+        "Venue": "GI",
+        "Year": "2015",
+        "Key": "saleh2015learning",
+        "doi": "10.20380/GI2015.08",
+        "Data": "Graphics",
+        "Application": "Vis Analysis (retrieve)",
+        "labels": [
+            "DatasetCollection",
+            "FeatureEngineering",
+            "Compare"
+        ]
+    },
+    {
+        "Paper": "A novel methodology for retrieving infographics utilizing structure and message content",
+        "Venue": "DKE",
+        "Year": "2015",
+        "Key": "li2015novel",
+        "doi": "10.1016/j.datak.2015.05.005",
+        "Data": "Graphics",
+        "Application": "Vis Analysis (retrieve)",
+        "labels": [
+            "NaturalLanguage",
+            "FeatureEngineering",
+            "Indexing"
+        ]
+    },
+    {
+        "Paper": "Infographics retrieval: A new methodology",
+        "Venue": "NLDB",
+        "Year": "2014",
+        "Key": "li2014infographics",
+        "doi": "10.1007/978-3-319-07983-7_15",
+        "Data": "Graphics",
+        "Application": "Vis Analysis (retrieve)",
+        "labels": [
+            "NaturalLanguage",
+            "Indexing"
+        ]
+    },
+    {
+        "Paper": "FigureSeer: Parsing result-figures in research papers",
+        "Venue": "ECCV",
+        "Year": "2016",
+        "Key": "siegel2016figureseer",
+        "doi": "10.1007/978-3-319-46478-7_41",
+        "Data": "Graphics",
+        "Application": "Vis Analysis (retrieve)",
+        "labels": [
+            "ReverseEngineering",
+            "FeatureLearning",
+            "DatasetCollection",
+            "Indexing"
+        ]
+    },
+    {
+        "Paper": "Composition and Configuration Patterns in Multiple-View Visualizations",
+        "Venue": "InfoVis",
+        "Year": "2020",
+        "Key": "chen2020composition",
+        "doi": "10.1109/TVCG.2020.3030338",
+        "Data": "Graphics",
+        "Application": "Vis Analysis (retrieve)|Vis Analysis (design mining)",
+        "labels": [
+            "FeatureEngineering",
+            "DatasetCollection",
+            "StatisticalAnalysis",
+            "Indexing",
+            "Compare",
+            "Limitation"
+        ]
+    },
+    {
+        "Paper": "Searching the visual style and structure of d3 visualizations",
+        "Venue": "InfoVis",
+        "Year": "2019",
+        "Key": "hoque2019searching",
+        "doi": "10.1109/TVCG.2019.2934431",
+        "Data": "Graphics (Vector)",
+        "Application": "Vis Analysis (retrieve)|Vis Analysis (design mining)",
+        "labels": [
+            "DatasetCollection",
+            "ReverseEngineering",
+            "Indexing",
+            "InterfaceDevelopment"
+        ]
+    },
+    {
+        "Paper": "An architecture for information extraction from Figures in digital libraries",
+        "Venue": "WWW",
+        "Year": "2015",
+        "Key": "ray2015architecture",
+        "doi": "10.1145/2740908.2741712",
+        "Data": "Graphics",
+        "Application": "Vis Analysis (retrieve)|Vis Analysis (design mining)",
+        "labels": [
+            "ReverseEngineering",
+            "FeatureEngineering",
+            "StatisticalAnalysis",
+            "Indexing"
+        ]
+    },
+    {
+        "Paper": "Quickinsights: Quick and automatic discovery of insights from multi-dimensional data",
+        "Venue": "SIGMOD",
+        "Year": "2018",
+        "Key": "ding2019quickinsights",
+        "doi": "10.1145/3299869.3314037",
+        "Data": "",
+        "Application": "AutoGen(Data)",
+        "labels": [
+            "Recommend"
+        ]
+    },
+    {
+        "Paper": "STL-CQA: Structure-based Transformers with Localization and Encoding for Chart Question Answering",
+        "Venue": "EMNLP",
+        "Year": "2020",
+        "Key": "singh2020stl",
+        "doi": "10.18653/v1/2020.emnlp-main.264",
+        "Data": "",
+        "Application": "",
+        "labels": [
+            "FeatureLearning"
+        ]
+    },
+    {
+        "Paper": "Reverse-engineering visualizations: Recovering visual encodings from chart images",
+        "Venue": "EuroVis",
+        "Year": "2017",
+        "Key": "poco2017reverse",
+        "doi": "10.1111/cgf.13193",
+        "Data": "Graphics",
+        "Application": "",
+        "labels": [
+            "DatasetCollection",
+            "ReverseEngineering"
+        ]
+    },
+    {
+        "Paper": "Viznet: Towards a large-scale visualization learning and benchmarking repository",
+        "Venue": "CHI",
+        "Year": "2020",
+        "Key": "hu2019viznet",
+        "doi": "10.1145/3290605.3300892",
+        "Data": "Program",
+        "Application": "",
+        "labels": [
+            "DatasetCollection",
+            "Assess"
+        ]
+    },
+    {
+        "Paper": "CrowdChart: Crowdsourced Data Extraction from Visualization Charts",
+        "Venue": "TKDE",
+        "Year": "2020",
+        "Key": "chai2020crowdchart",
+        "doi": "10.1109/TKDE.2020.2972543",
+        "Data": "Graphics",
+        "Application": "",
+        "labels": [
+            "ReverseEngineering"
+        ]
+    },
+    {
+        "Paper": "Visualization assessment: A machine learning approach",
+        "Venue": "Vis",
+        "Year": "2019",
+        "Key": "fu2019visualization",
+        "doi": "10.1109/VISUAL.2019.8933570",
+        "Data": "Graphics",
+        "Application": "",
+        "labels": [
+            "FeatureLearning",
+            "Assess"
+        ]
+    },
+    {
+        "Paper": "Chart decoder: Generating textual and numeric information from chart images automatically",
+        "Venue": "JVLC",
+        "Year": "2018",
+        "Key": "dai2018chart",
+        "doi": "10.1016/j.jvlc.2018.08.005",
+        "Data": "",
+        "Application": "",
+        "labels": [
+            "",
+            "ReverseEngineering",
+            "FeatureLearning",
+            "DatasetCollection"
+        ]
+    },
+    {
+        "Paper": "Evaluating 'graphical perception'with CNNs",
+        "Venue": "InfoVis",
+        "Year": "2018",
+        "Key": "haehn2018evaluating",
+        "doi": "10.1109/TVCG.2018.28651",
+        "Data": "Graphics",
+        "Application": "",
+        "labels": [
+            "Summarization"
+        ]
+    },
+    {
+        "Paper": "Multimodal deep learning using images and text for information graphic classification",
+        "Venue": "ASSETS",
+        "Year": "2018",
+        "Key": "kim2018multimodal",
+        "doi": "10.1145/3234695.3236357",
+        "Data": "",
+        "Application": "",
+        "labels": [
+            "DatasetCollection",
+            "ReverseEngineering",
+            "FeatureEngineering",
+            "FeatureLearning"
+        ]
+    },
+    {
+        "Paper": "Evaluation of convolutional neural network architectures for chart image classification",
+        "Venue": "IJCNN",
+        "Year": "2018",
+        "Key": "chagas2018evaluation",
+        "doi": "10.1109/IJCNN.2018.8489315",
+        "Data": "",
+        "Application": "",
+        "labels": [
+            "DatasetCollection",
+            "ReverseEngineering",
+            "FeatureLearning",
+            "FeatureEngineering"
+        ]
+    },
+    {
+        "Paper": "Graphscape: A model for automated reasoning about visualization similarity and sequencing",
+        "Venue": "CHI",
+        "Year": "2017",
+        "Key": "kim2017graphscape",
+        "doi": "10.1145/3025453.3025866",
+        "Data": "Program",
+        "Application": "",
+        "labels": [
+            "FeatureEngineering",
+            "Compare"
+        ]
+    },
+    {
+        "Paper": "A Machine Learning Approach for Semantic Structuring of Scientific Charts in Scholarly Documents",
+        "Venue": "AAAI",
+        "Year": "2017",
+        "Key": "al2017machine",
+        "doi": "10.5555/3297863.3297868",
+        "Data": "",
+        "Application": "",
+        "labels": [
+            "ReverseEngineering"
+        ]
+    },
+    {
+        "Paper": "Learning visual importance for graphic designs and data visualizations",
+        "Venue": "UIST",
+        "Year": "2017",
+        "Key": "bylinskii2017learning",
+        "doi": "10.1145/3126594.3126653",
+        "Data": "Graphics",
+        "Application": "",
+        "labels": [
+            "DatasetCollection",
+            "Summarization",
+            "FeatureLearning"
+        ]
+    },
+    {
+        "Paper": "Chartsense: Interactive data extraction from chart images",
+        "Venue": "CHI",
+        "Year": "2017",
+        "Key": "jung2017chartsense",
+        "doi": "10.1145/3025453.3025957",
+        "Data": "",
+        "Application": "",
+        "labels": [
+            "ReverseEngineering",
+            "FeatureLearning"
+        ]
+    },
+    {
+        "Paper": "A data driven approach for compound figure separation using convolutional neural networks",
+        "Venue": "ICDAR",
+        "Year": "2017",
+        "Key": "tsutsui2017data",
+        "doi": "10.1109/ICDAR.2017.93",
+        "Data": "",
+        "Application": "",
+        "labels": [
+            "ReverseEngineering",
+            "FeatureLearning"
+        ]
+    },
+    {
+        "Paper": "Deepchart: combining deep convolutional networks and deep belief networks in chart classification",
+        "Venue": "Signal Processing",
+        "Year": "2016",
+        "Key": "tang2016deepchart",
+        "doi": "10.1016/j.sigpro.2015.09.027",
+        "Data": "",
+        "Application": "",
+        "labels": [
+            "ReverseEngineering",
+            "FeatureLearning"
+        ]
+    },
+    {
+        "Paper": "View: Visual Information Extraction Widget for improving chart images accessibility",
+        "Venue": "ICIP",
+        "Year": "2015",
+        "Key": "gao2012view",
+        "doi": "10.1109/ICIP.2012.6467497",
+        "Data": "",
+        "Application": "",
+        "labels": [
+            "ReverseEngineering",
+            "FeatureEngineering"
+        ]
+    },
+    {
+        "Paper": "Classifying Computer Generated Charts",
+        "Venue": "Content-Based Multimedia Indexing",
+        "Year": "2007",
+        "Key": "prasad2007classifying",
+        "doi": "10.1109/CBMI.2007.385396",
+        "Data": "",
+        "Application": "",
+        "labels": [
+            "FeatureEngineering",
+            "ReverseEngineering"
+        ]
+    },
+    {
+        "Paper": "Extraction of vectorized graphical information from scientific chart images",
+        "Venue": "ICDAR",
+        "Year": "2007",
+        "Key": "huang2007extraction",
+        "doi": "10.1109/ICDAR.2007.4378764",
+        "Data": "",
+        "Application": "",
+        "labels": [
+            "ReverseEngineering"
+        ]
+    }
+]

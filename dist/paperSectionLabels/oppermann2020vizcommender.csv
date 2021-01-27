@@ -1,0 +1,14 @@
+sectionNumber,title,label,remark
+1,Introduction,,
+2,Background,,
+3,Related Work,,
+3.1,Visual Encoding Recommendation,,
+3.2,Semantic Text Similarity Models and Evaluations,,
+3.3,Evaluation of Recommendation Algorithms,,
+4,VizCommender Proof-Of-Concept,,
+5,Data Extraction and Feature Engineering,Feature[Engineering][Text],"A viz workbook specification contains a number of text objects"
+6,Viz-to-Viz Similarity,Compare[Text][Distance],"a set of methods to compute pairwise similarity scores based on textual features"
+7,Crowdsourced Similarity Judgements,,
+8,Results,,
+9,Discussion,,
+10,Conclusion,,

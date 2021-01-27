@@ -1,0 +1,9 @@
+sectionNumber,title,label,remark
+1,Introduction,,
+2,Insights,Recommend[Data][Opt],"A basic insight query returns the visualizations for the highest-ranked feature tuples according to the insight metric selected. For each insight, the ranking metric is italicized."
+3,Sketching,Recommend[Data][Opt],"We use sketching [5] to speed up the computation of insight metrics"
+4,Demonstration,,
+4.1,Usage Scenario,,
+4.2,Demo Datasets,,
+5,Conclusion,,
+6,References,,
