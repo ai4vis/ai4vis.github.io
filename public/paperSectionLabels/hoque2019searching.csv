@@ -1,0 +1,12 @@
+sectionNumber,title,label,remark
+1,Introduction,,
+2,Related Work,,
+3,Search Engine for D3 Visualization,,
+3.1,Visualization Crawler,DatasetCollection,
+3.2,Visualization Deconstructor,ReverseEngineering[ChartRecognition]|ReverseEngineering[ElementClustering]|ReverseEngineering[Composing],
+3.3,Search User Interface,Querying[Structured][Exact-Match],"Our query syntax is based on the Vega-Lite"
+4,Applications,,
+5,Design Demographics Analysis,Mine[Design][Statistics],"Our goals in conducting these analyses is to identify patterns of visual design that are commonly used by D3 chart developers"
+6,User Study,,
+7,Limitations,,
+8,Conclusions and Future work,,

@@ -1,0 +1,12 @@
+sectionNumber,title,label,remark
+1,Introduction,,
+2,Background
+2.1,Related Work
+2.2,Role of Graphical Summaries in Natural Language Applications
+3,System Overview
+4,Content Identification Module,Reasoning[Summarization][H],"present the content identification rules that were constructed to automatically select appropriate content for the summary"
+5,Text Structuring and Aggregation Module,Reasoning[Summarization][H]
+6,Sentence Ordering Module (SOM),Reasoning[Summarization][H]
+7,Sentence Generation Module (SGM),Reasoning[Summarization][H]
+8,Evaluation of the Effectiveness of the Textual Summaries
+9,Conclusion and Future Work

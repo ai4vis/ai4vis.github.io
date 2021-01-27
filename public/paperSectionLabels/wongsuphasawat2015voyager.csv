@@ -1,0 +1,19 @@
+sectionNumber,title,label,remark
+1,Introduction,,
+2,RELATED WORK
+2.1,Exploratory Search
+2.2,Tools for Visualization Construction
+2.3,Visualization Recommendation
+3,USAGE SCENARIO
+4,THE DESIGN OF VOYAGER
+4.1,Design Considerations
+4.2,The Voyager User Interface
+5,THE VOYAGER SYSTEM
+5.1,Vega-lite: A Formal Model For Visualization
+5.2,The Compass Recommendation Engine,Recommend[Hybrid]
+5.2.1,Selecting Variables,Recommend[Data][Opt],"The primary goals of this phase are to recommend additional variables that the analyst might otherwise overlook (C1) and to avoid the “empty results” problem [14]."
+5.2.2,Applying Data Transformations,Recommend[Data][Opt]
+5.2.3,Designing Encodings,Recommend[Encoding][Opt],"Compass maps all of the above features to scalar values and calculates a weighted sum to derive the effectiveness score s(e) for each encoding candidate e"
+5.3,Implementation Notes
+6,EVALUATION:VOYAGER VS.POLESTAR
+7,DISCUSSION AND FUTURE WORK

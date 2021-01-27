@@ -1,0 +1,10 @@
+sectionNumber,title,label,remark
+1,Introduction,,
+2,RELATED WORK
+2.1,Color Perception and Aesthetics in Visualization
+2.2,Guidelines and Techniques
+2.3,Automated Design & Design Mining in Visualization
+3,MODELING DESIGNER PRACTICE,Mine[Design][Clustering]|Recommend[Encoding][Opt],"We use the normalized curves as inputs to a set of clustering functions to elicit common design patterns across ramps"
+4,EVALUATION
+5,DISCUSSION
+6,CONCLUSION

@@ -1,0 +1,12 @@
+﻿sectionNumber,title,label,remark
+1,Introduction,,
+2,RELATED WORK
+3,JUST-IN-TIME DESCRIPTIVE ANALYTICS
+3.1,Cluster Detection,Recommend[Data]
+3.2,Outlier Detection,Recommend[Data]
+3.3,Trend Detection,Recommend[Data]
+3.4,Feature Ranking and Annotation,Assessment|Summary[Annotation]
+3.5,Annotation Interaction
+4,EVALUATION
+5,DISCUSSION
+6,CONCLUSION

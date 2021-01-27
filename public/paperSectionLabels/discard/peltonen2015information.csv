@@ -1,0 +1,9 @@
+sectionNumber,title,label,remark
+1, Introduction,,
+2, Background,,
+3, The method: information retrieval approach to meta-visualization,,
+3.1, Information retrieval view of comparing neighborhoods between plots,Compare,"When several plots are available for the data, the analyst can compare the neighborhoods between plots"
+3.2, Mapping the visualizations onto the meta-visualization,Indexing,
+3.3, Alternative approaches,,
+4 ,Experiments,,
+5 Conclusions and discussion,,

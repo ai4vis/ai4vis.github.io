@@ -1,0 +1,13 @@
+sectionNumber,title,label,remark
+1, Introduction,,
+2, Related Work,,
+2.1,Graphical Perception,,
+2.2,Data Collection for Visualization Research,,
+2.3,Automated Visualization using Machine Learning,,
+2.4,Machine Learning Corpora,,
+3, Data,DatasetCollection,
+4,Experiment Design,Assess[Score][ML]|Feature[Engineering][Data],"we trained a machine learning model that learns the perceptual efectiveness of diferent visual designs and evaluated its predictive power across test datasets. To characterize a dataset, we extracted 167 features: These features characterized summary statistics (e.g. coefcient of variance and kurtosis), statistical distributions (e.g. entropy and statistical fts), pairwise relationships (e.g. correlations and one-way ANOVA p-values), clusteredness and spatial autocorrelation."
+5, Results,,
+6, Discussion,,
+7, Future Work,,
+8, Conclusion,,

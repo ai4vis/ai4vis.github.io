@@ -1,0 +1,6 @@
+sectionNumber,title,label,remark
+1, Introduction,,
+2, INSIGHT MODELING,Recommend[Data][Opt],"We quantify the “interestingness” of an insight by assigning an appropriate score to it."
+3, INSIGHT MINING,Recommend[Data][Opt]
+4, EVALUATION
+5, RELATED WORK

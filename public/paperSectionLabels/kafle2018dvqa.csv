@@ -1,0 +1,11 @@
+sectionNumber,title,label,remark
+1,Introduction,,
+2,Related Work
+2.1,Automatically Parsing Bar Charts
+2.2,VQA with Natural Images
+2.3,Reasoning and Synthetic Scenes and Diagrams"
+3,DVQA: The Dataset,DatasetCollection
+4,DVQA Algorithms & Models,Feature[Learning][Graphics]|Reasoning[VQA][ML],"All of the models that process images use the ImageNet pre-trained ResNet-152 CNN"
+5,Experiments
+6,Discussion
+7,Conclusion

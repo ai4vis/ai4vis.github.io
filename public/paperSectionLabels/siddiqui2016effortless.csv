@@ -1,0 +1,8 @@
+sectionNumber,title,label,remark
+1,Introduction,,
+2,QUERY LANGUAGE
+3,QUERY EXECUTION,Recommend[Hybrid][Opt],"zenvisage uses a novel ZQL graph-based query opti- mizer that leverages a suite of optimizations tailored to the goal of processing collections of visualizations in certain pre-defined way"
+4,SYSTEM DESCRIPTION
+5,EXPERIMENTAL STUDY
+6,USER STUDY
+7,RELATED WORK
