@@ -1,16 +1,19 @@
 <template>
     <div id="why" class="myComponent">
         <div class="heading">How Apply AI to Visualization Data</div>
-        <div class="supplymentary">We organize the AI approaches with a novel task abstraction. We identify
-        7 common tasks for AI4VIS research. A technique paper typically solves a
-        single task, while a system paper could consist of multiple components
-        each for different tasks. As such, we aim to decompose system papers
-        into abstract tasks that allow for a collectively-exhaustive taxonomy of
-        tasks. Besides, due to the interdisciplinary nature of our corpus, we
-        find tasks are usually described in inconsistent vocabularies. We wish
-        to establish a common vocabulary that enables consistent discussions for
-        researchers from different areas to communicate the relevance and
-        subtleties.</div>
+        <div class="supplymentary">
+            We organize the AI approaches with a novel task abstraction. We
+            identify 7 common tasks for AI4VIS research. A technique paper
+            typically solves a single task, while a system paper could consist
+            of multiple components each for different tasks. As such, we aim to
+            decompose system papers into abstract tasks that allow for a
+            collectively-exhaustive taxonomy of tasks. Besides, due to the
+            interdisciplinary nature of our corpus, we find tasks are usually
+            described in inconsistent vocabularies. We wish to establish a
+            common vocabulary that enables consistent discussions for
+            researchers from different areas to communicate the relevance and
+            subtleties.
+        </div>
         <div class="cardWrapper">
             <div class="card" v-for="task in tasks" :key="task.name">
                 <h5>{{ task.name }}</h5>
@@ -32,8 +35,8 @@
         >
             <h5 class="cardHeading">{{ modalGoal.name }}</h5>
             {{ modalGoal.details.description }} <br />
-            
-            <div :style="{marginTop: '15px', marginBottom: '10px'}">
+
+            <div :style="{ marginTop: '15px', marginBottom: '10px' }">
                 <img
                     :src="require(`@/assets/${modalGoal.details.image}`)"
                     width="400"
@@ -44,20 +47,35 @@
                 v-for="subcategory in modalGoal.details.categories"
                 :key="subcategory.name"
             >
-                <a-tag color="green">{{ subcategory.name }}</a-tag
-                ><br />
-                <div
-                    v-for="method in subcategory.childern"
-                    :key="method.name"
-                >
-                    <div class="methodName">{{ method.name }} </div>
-                    <span v-if="method.description.length > 0">
-                        {{ method.description }}   <br />
+                <h6>{{ subcategory.name }}</h6>
 
-                    </span>
-                    <span v-if="method.example.length > 0">
-                        <b :style="{fontWeight: '500'}">Examples:</b> <span class="example">{{ method.example }}</span>
-                    </span>
+                <div class="row" style="margin-top: 10px">
+                    <div
+                        class="col-6"
+                        style="padding-bottom: 10px"
+                        v-for="method in subcategory.childern"
+                        :key="method.name"
+                    >
+                        <div class="modalCardWrapper">
+                            <div class="modalCardContent" style="">
+                                <a-tag color="#108ee9">{{ method.name }}</a-tag>  <br>
+
+                                <!-- <div class="methodName">{{ method.name }}</div> -->
+
+                                <span v-if="method.description.length > 0">
+                                    {{ method.description }} <br />
+                                </span>
+                                <span v-if="method.example.length > 0">
+                                    <b :style="{ fontWeight: '500' }"
+                                        >Examples: </b
+                                    >
+                                    <span class="example">{{
+                                        method.example
+                                    }}</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </a-modal>
@@ -288,7 +306,7 @@ const TASKS: TaskCard[] = [
             image: "reasoningD.png",
             categories: [
                 {
-                    name: "Problem",
+                    name: "Subcategory",
                     childern: [
                         {
                             name: "Visual Perceptual Learning",
@@ -303,7 +321,8 @@ const TASKS: TaskCard[] = [
                                 "It becomes increasingly important with the rapid popularization of visualizations. Most existing approaches generate text summaries such as natural language description or captions",
                             example:
                                 'Chen, Charles, et al. "Neural caption generation over figures." Adjunct Proceedings of the 2019 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2019 ACM International Symposium on Wearable Computers. 2019.',
-                        },                        {
+                        },
+                        {
                             name: "Visual Question Answering",
                             description:
                                 "It is another emerging research area that aims to answer a natural language question given a visualization image.",
@@ -317,8 +336,7 @@ const TASKS: TaskCard[] = [
                     childern: [
                         {
                             name: "Rule-based",
-                            description:
-                                "",
+                            description: "",
                             example:
                                 'Kim, Dae Hyun, Enamul Hoque, and Maneesh Agrawala. "Answering questions about charts and generating visual explanations." Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. 2020.',
                         },
@@ -345,7 +363,7 @@ const TASKS: TaskCard[] = [
             image: "recommendationD.png",
             categories: [
                 {
-                    name: "Method",
+                    name: "Type",
                     childern: [
                         {
                             name: "Data Recommendation",
@@ -361,13 +379,12 @@ const TASKS: TaskCard[] = [
                             example:
                                 'Wu, Aoyu, et al. "MobileVisFixer: Tailoring Web Visualizations for Mobile Phones Leveraging an Explainable Reinforcement Learning Framework." IEEE Transactions on Visualization and Computer Graphics (2020).',
                         },
-                                                {
+                        {
                             name: "Hybrid Recommendation",
-                            description:
-                                "It decides both data and encodings.",
+                            description: "It decides both data and encodings.",
                             example:
                                 'Luo, Yuyu, et al. "Deepeye: Towards automatic data visualization." 2018 IEEE 34th international conference on data engineering (ICDE). IEEE, 2018.',
-                        }
+                        },
                     ],
                 },
                 {
@@ -410,7 +427,7 @@ const TASKS: TaskCard[] = [
                             description:
                                 "The concept of design mining refers to leveraging data mining techniques to derive design principles from existing artifacts.",
                             example:
-                    'Battle, Leilani, et al. "Beagle: Automated extraction and interpretation of visualizations from the web." Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 2018.',
+                                'Battle, Leilani, et al. "Beagle: Automated extraction and interpretation of visualizations from the web." Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 2018.',
                         },
                         {
                             name: "Mining Data Patterns",
@@ -429,16 +446,15 @@ const TASKS: TaskCard[] = [
                             description:
                                 "Most systems mostly apply simple statistical analysis",
                             example:
-                    'Battle, Leilani, et al. "Beagle: Automated extraction and interpretation of visualizations from the web." Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 2018.',
+                                'Battle, Leilani, et al. "Beagle: Automated extraction and interpretation of visualizations from the web." Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 2018.',
                         },
                         {
                             name: "Clustering",
-                            description:
-                                "",
+                            description: "",
                             example:
                                 'Smart, Stephen, Keke Wu, and Danielle Albers Szafir. "Color crafting: Automating the construction of designer quality color ramps." IEEE transactions on visualization and computer graphics 26.1 (2019): 1215-1225.',
                         },
-                                                {
+                        {
                             name: "Visual Analytic",
                             description:
                                 "It adopts a visual analytic approach by projecting charts into a 2D space whereby supporting clustering analysis and interactive analysis.",
@@ -483,14 +499,14 @@ img {
     margin: auto;
 }
 .modalContent {
-    color: #2B2F33;
+    color: #2b2f33;
 }
 .methodName {
     font-weight: 700;
     margin-top: 5px;
 }
 .cardContent {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .subDesc {
     margin-top: 5px;

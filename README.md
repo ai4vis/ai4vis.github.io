@@ -12,7 +12,8 @@ npm run serve
 
 ### Compiles and minifies for production
 ```
-npm run build
+npm run build   
+github subtree -prefix dist origin: gh-pages
 ```
 
 ### Customize configuration

@@ -1,12 +1,14 @@
 <template>
     <div id="what" class="myComponent">
         <div class="heading">What is Visualization Data</div>
-        <div class="supplymentary">We define visualization data as the digital representations of
-        visualizations in computers. Visualization data can be stored in
-        different content formats such as graphics and programs. The choice of
-        content formats directly influences the downstream operation possibly on
-        the visualization data, since different content formats have their own
-        advantages and disadvantages.</div>
+        <div class="supplymentary">
+            We define visualization data as the digital representations of
+            visualizations in computers. Visualization data can be stored in
+            different content formats such as graphics and programs. The choice
+            of content formats directly influences the downstream operation
+            possibly on the visualization data, since different content formats
+            have their own advantages and disadvantages.
+        </div>
         <div class="cardWrapper">
             <div class="card" v-for="goal in dataformats" :key="goal.goal">
                 <h5>{{ goal.goal }}</h5>
@@ -20,9 +22,11 @@
             </div>
         </div>
 
-        <div class="supplymentary">Now that we have considered the different content formats of raw
-        visualization data, the next challenge is its representation in AI
-        approaches.</div>
+        <div class="supplymentary">
+            Now that we have considered the different content formats of raw
+            visualization data, the next challenge is its representation in AI
+            approaches.
+        </div>
         <div class="cardWrapper">
             <div class="card" v-for="rep in representations" :key="rep.name">
                 <h5>{{ rep.name }}</h5>
@@ -40,19 +44,31 @@
         >
             <h5 class="cardHeading">{{ modalGoal.goal }}</h5>
             {{ modalGoal.description }} <br />
-            <div
-                class="cardContent"
-                v-for="subcategory in modalGoal.subcategories"
-                :key="subcategory.subcategory"
-            >
-                <a-tag color="green">{{ subcategory.subcategory }}</a-tag
-                ><br />
-                <div class="subDesc">{{ subcategory.description }}</div>
-
-                <span v-if="subcategory.example.length"
-                    >
-                    <b>Examples:</b> <span class="example">{{ subcategory.example }}</span>
-                </span>
+            <div class="row" style="margin-top: 10px">
+                <div
+                    class="col-6"
+                    style="padding-bottom: 10px"
+                    v-for="subcategory in modalGoal.subcategories"
+                    :key="subcategory.subcategory"
+                >
+                    <div class="modalCardWrapper">
+                        <div class="modalCardContent" style="">
+                            <a-tag color="#108ee9">{{
+                                subcategory.subcategory
+                            }}</a-tag>
+                            <!-- <div class='card-title'>{{ subcategory.subcategory }}</div> -->
+                            <div class="subDesc">
+                                {{ subcategory.description }}
+                            </div>
+                            <span v-if="subcategory.example.length">
+                                <b>Examples:</b>
+                                <span class="example">{{
+                                    subcategory.example
+                                }}</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </a-modal>
     </div>
@@ -132,18 +148,22 @@ const REPRESENTATION = [
     {
         name: "Interal Representation",
         image: "internalRepresentation.png",
-        description: 'Visualization programs contain details (e.g. visual style) or semantics (e.g. chart type) that might not meet particular needs of research. Thus, systems express and operate on visualizations in more structured formats by removing unnecessary specifications and adding customized information, which we refer to as internal representations.'
+        description:
+            "Visualization programs contain details (e.g. visual style) or semantics (e.g. chart type) that might not meet particular needs of research. Thus, systems express and operate on visualizations in more structured formats by removing unnecessary specifications and adding customized information, which we refer to as internal representations.",
     },
-        
+
     {
         name: "Feature Engineering",
         image: "featureEng.png",
-        description: 'Feature engineering is the process of using domain knowledge to extract features from raw data. Features are the measurable properties serving as the input to machine learning models. We classify existing approaches according to the feature space, including graphics, program, text and underlying data.'
-    },  {
+        description:
+            "Feature engineering is the process of using domain knowledge to extract features from raw data. Features are the measurable properties serving as the input to machine learning models. We classify existing approaches according to the feature space, including graphics, program, text and underlying data.",
+    },
+    {
         name: "Feature Learning",
         image: "featureLearn.png",
-        description: 'Feature learning replaces the manual process by developing automated approaches that automatically discover useful representations (e.g. CNN, Auto-encoder). We classify existing approaches according to the feature space, including graphics, program, text and underlying data.'
-    }
+        description:
+            "Feature learning replaces the manual process by developing automated approaches that automatically discover useful representations (e.g. CNN, Auto-encoder). We classify existing approaches according to the feature space, including graphics, program, text and underlying data.",
+    },
 ];
 
 export default {
@@ -174,7 +194,7 @@ export default {
 
 <style scoped lang="scss">
 .modalContent {
-    color: #2B2F33;
+    color: #2b2f33;
 }
 .cardContent {
     margin-top: 20px;
