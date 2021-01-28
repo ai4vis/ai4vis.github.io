@@ -197,7 +197,6 @@ import {
 } from "@ant-design/icons-vue";
 import { formatter } from "@/utils/helper";
 import { taskName } from "@/utils/filters";
-import { FormModelItem } from "ant-design-vue/types/form-model/form-item";
 
 export default {
     props: {

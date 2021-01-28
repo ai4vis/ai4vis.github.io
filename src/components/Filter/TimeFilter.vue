@@ -140,7 +140,7 @@ export default {
     border: 1px solid #ddd;
 }
 .filterHeader {
-    font-size: 15px;
+    font-size: 20px;
     margin-bottom: 2px;
     font-weight: 600;
 }
