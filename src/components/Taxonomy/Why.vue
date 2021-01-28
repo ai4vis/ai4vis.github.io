@@ -1,8 +1,10 @@
 <template>
     <div id="why" class="myComponent">
         <div class="heading">Why Apply AI to Visualization Data</div>
-       <div class="supplymentary"> The goals of applying AI to visualization data cover a wide spectrum,
-        pursued by research efforts from different areas.</div>
+        <div class="supplymentary">
+            The goals of applying AI to visualization data cover a wide
+            spectrum, pursued by research efforts from different areas.
+        </div>
         <div class="cardWrapper">
             <div class="card" v-for="goal in goals" :key="goal.goal">
                 <h5>{{ goal.goal }}</h5>
@@ -24,16 +26,30 @@
             :class="modalContent"
         >
             <h5 :class="cardHeading">{{ modalGoal.goal }}</h5>
-            {{ modalGoal.description }} <br />
-            <div
-                class="cardContent"
-                v-for="subcategory in modalGoal.subcategories"
-                :key="subcategory.subcategory"
-            >
-                <a-tag color="green">{{ subcategory.subcategory }}</a-tag
-                ><br />
-                <div class="subDesc">{{ subcategory.description }} </div>
-                <b>Examples:</b> <span class="example">{{ subcategory.example }}</span>
+            {{ modalGoal.description }}
+            <div class="row" style="margin-top: 10px">
+                <div
+                    class="col-6"
+                    style="padding-bottom: 10px"
+                    v-for="subcategory in modalGoal.subcategories"
+                    :key="subcategory.subcategory"
+                >
+                    <div class="modalCardWrapper">
+                        <div class="modalCardContent" style="">
+                            <a-tag color="#108ee9">{{
+                                subcategory.subcategory
+                            }}</a-tag>
+                            <!-- <div class='card-title'>{{ subcategory.subcategory }}</div> -->
+                            <div class="subDesc">
+                                {{ subcategory.description }}
+                            </div>
+                            <b>Examples: </b>
+                            <span class="example">{{
+                                subcategory.example
+                            }}</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </a-modal>
     </div>
@@ -163,12 +179,9 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
 .modalContent {
-    color: #2B2F33;
-}
-.cardContent {
-    margin-top: 20px;
+    color: #2b2f33;
 }
 .subDesc {
     margin-top: 5px;

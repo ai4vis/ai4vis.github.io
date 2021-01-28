@@ -25,6 +25,16 @@ export default {
 </script>
 
 <style lang="scss">
+.modalCardWrapper {
+    margin-bottom: 10px;
+    height: 100%;
+}
+.modalCardContent {
+    border: 1px solid #888;
+    padding: 10px 10px;
+    height: 100%;
+}
+
 #taxonomy {
     padding: 10px 10px 0px 10px;
     font-size: 16px;
