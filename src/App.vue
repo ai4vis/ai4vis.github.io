@@ -6,9 +6,11 @@
           <a-menu-item key="introduction" :style="{fontSize: '16px', fontWeight: '500'}"> Introduction </a-menu-item>
           <a-menu-item key="taxonomy" :style="{fontSize: '16px', fontWeight: '500'}">Taxonomy</a-menu-item>
           <a-menu-item key="browser" :style="{fontSize: '16px', fontWeight: '500'}">Paper Browser</a-menu-item>
+          <a-menu-item key="arxiv" :style="{fontSize: '16px', fontWeight: '500', color: 'white'}"><a href="https://arxiv.org/pdf/2102.01330.pdf"  target="_blank" rel="noopener noreferrer">Link to Arxiv</a></a-menu-item>
         </a-menu>
     </div>
     <Introduction v-if="current[0]==='introduction'" />
+    <Introduction v-if="current[0]==='arxiv'" />
     <Taxonomy v-if="current[0]==='taxonomy'" />
     <Collection v-if="current[0]==='browser'" />
   </div>
@@ -76,6 +78,9 @@ export default {
     .tab-title {
       font-size: 16px;
       font-weight: 500;
+    }
+    a {
+      color: white !important;
     }
 }
 </style>
