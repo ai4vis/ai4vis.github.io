@@ -1,0 +1,13 @@
+﻿sectionNumber,title,label,remark
+1,Introduction,,
+2,Related work,,
+3,ANNOTATION CONVENTIONS & IMPLICATIONS,
+4,CONTEXTIFIER: SYSTEM OVERVIEW
+5,VISUALIZATION ANNOTATION: FEATURE SELECTION
+5.1,Overview of Annotation Selection Engine,Summarization
+5.2,Relevancy Feature Generator,Recommend[Data],"a relevancy feature generator that relies on the keyword index and database to ana- lyze and filter the large set of company articles to a man- ageable list of candidate annotations"
+5.3,Article Volume Feature Generator,Recommend[Data],"a volume feature generator that identifies weeks where the most news-worthy events were likely to have occurred based on the number of company articles that were published"
+5.4,Saliency Feature Generator,Recommend[Data],"a visual saliency feature generator to provide visually and statistically motivated suggestions"
+5.5,Feature Integrator,Recommend[Data]
+6,EVALUATION
+7,DISCUSSION

@@ -1,0 +1,11 @@
+sectionNumber,title,label,remark
+1,Introduction,,
+2,SYSTEM OVERVIEW AND BACKGROUND
+3,MACHINE LEARNING-BASED VISUALIZATION RECOGNITION AND RANKING AND SELECTION,Assess[Ranking][ML]|Feature[Engineering][Data],"given a set of visualization nodes as input, outputs a ranked list. Much of our effort goes into this feature engineering to support effective machine learning"
+4,PARTIAL-ORDER-BASED SELECTION,Recommend[Hybrid][Opt]
+5,OPTIMIZING PARTIAL ORDER-BASED METHOD,Recommend[Hybrid][Opt]
+6,DIVERSIFIED VISUALIZATIONS SELECTION,Compare[Hybrid][Distance]|Recommend[Hybrid],"we treat the top-k visualizations selection problem as a bi-criteria optimization problem, which considers both the visualization score and diversity. Next we define the diversity in our problem first and then introduce our diversified top-k visualizations selection algorithm"
+7,DEEPEYE SYSTEM
+8,EXPERIMENTS
+9,RELATED WORK
+10,CONCLUSION

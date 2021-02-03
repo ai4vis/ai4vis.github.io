@@ -1,0 +1,14 @@
+sectionNumber,title,label,remark
+1,Introduction,,
+2,Messages,,
+2.1,Messages,,
+2.2,Annotation,,
+3,Communicative Signals,,
+4,Recognizing the Intended Message,,
+4.1,System Architecture,,
+4.2,Extracting Evidence,Feature[Engineering][Program],"The evidence provided by visual communicative signals (such as whether a group of bars is colored differently from the other bars) is automatically extracted from the XML representation of a graphic and entered into evidence nodes"
+4.3,Training,Reasoning[Summarization][ML],"{It learns to predict the intended message} The conditional probability tables are learned from our corpus of graphics."
+4.4,Current Performance and Discussion,,
+5,Conclusion,,
+5.1,Future Work,,
+5.2,Summary,,

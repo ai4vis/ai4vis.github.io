@@ -1,0 +1,7 @@
+sectionNumber,title,label,remark
+1,Introduction,,
+2,Related work,,
+3,Dataset,DatasetCollection,
+4,Models,Feature[Learning][Graphics]|Reasoning[VQA][ML],
+5,Experimental Results,,
+6,Conclusion,,

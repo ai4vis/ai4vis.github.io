@@ -1,0 +1,12 @@
+sectionNumber,title,label,remark
+1,Introduction,,
+2,Finding and Extracting Visualizations,,
+2.1,Web Crawler Results,,
+2.2,Challenges,,
+3,Automatically Labeling Visualizations,ReverseEngineering[ChartRecognition],"automatically classify extracted visualizations by type"
+3.1,General features,Feature[Engineering][Graphics],"These features consist mainly of counts for the five SVG element types. For each SVG object (i.e., each extracted visualization), we count the instances of each element type."
+4,Accuracy Results for Labeling Visualizations,,
+5,DISCUSSION: VISUALIZATION USAGE ON THE WEB,Mine[Design][Statistics],"In this section, we highlight interesting insights from our ex- tracted collections."
+6,Related Work,,
+7,Conclusion,,
+8,Acknowledgments,,

@@ -1,0 +1,7 @@
+sectionNumber,title,label,remark
+1,Introduction,,
+2,PROBLEM DEFINITION AND DATASET
+3,THE PROPOSED MODELS
+3.1,Captioning Model,Feature[Learning][Graphics],"The encoder is a Residual Network [3] which extracts feature maps from the given figures."
+3.2,Attention Models for Figure Captioning,Reasoning[Summarization][ML]
+4,EXPERIMENTAL EVALUATIONS

@@ -103,7 +103,7 @@ export default {
 }
 .paper {
     width: 280px;
-    min-height: 280px;
+    height: 280px;
     margin: 5px 10px;
     padding: 5px 10px;
     border: 1px solid lightgrey;

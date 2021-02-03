@@ -1,0 +1,18 @@
+sectionNumber,title,label,remark
+1,Introduction,
+2,PROBLEM FORMULATION,
+3,RELATED WORK,
+3.1,Rule-based Visualization Recommender Systems,
+3.2,ML-based Visualization Recommender Systems,
+4,DATA,
+5, METHODS,
+5.1,Feature Processing,Feature[Engineering][Program]
+5.2,Prediction Tasks,Recommend[Encoding][Prediction]
+5.3,Neural Network and Baseline Models,Recommend[Encoding][Prediction]
+6,EVALUATING PERFORMANCE,
+6.1,Interpreting Feature Importances,
+7,BENCHMARKING WITH CROWDSOURCED EFFECTIVENESS
+7.1,Modeling and Measuring Efectiveness
+7.2,Benchmarking Procedure
+7.3,Benchmarking Results
+8,DISCUSSION

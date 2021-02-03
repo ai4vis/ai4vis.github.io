@@ -1,0 +1,18 @@
+sectionNumber,title,label,remark
+1,Introduction,,
+2,BACKGROUND AND RELATED WORK
+2.1,Narrative Visualization and Storytelling
+2.2,Displaying Time-Oriented Data
+2.3,Small Multiples and Comic Strips
+2.4,Annotating Visualization
+3,DESIGN REQUIREMENTS AND WORKFLOW
+4,TEMPORAL LAYOUT AND DATA SNAPSHOTS
+4.1,Temporal Layout
+4.2,Data Snapshots
+5,ANNOTATIONS
+5.1,Data Points of Interest (POIs),Reasoning[VPL][H],"Extracts a single aspect of the underlying dataset, which we refer to as a point of interest"
+5.2,Automatically Created Annotations,Recommend[Encoding][Opt],"we use the notion that each created annotation has a score, represented as a single, numerical value"
+5.3,Annotation Placement,Recommend[Encoding][Opt],"chooses annotations for display based solely on rank"
+6,IMPLEMENTATION AND EVALUATION
+7,DISCUSSION
+8,CONCLUSIONS
