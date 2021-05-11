@@ -2,7 +2,7 @@
     <div id="overview">
          <div class="heading">Literature Overview</div>
          <div class="supplymentary">
-            This table presents an overview.
+            This table presents an overview of the surveyed papers.
         </div>
         <table>
             <thead>
@@ -30,7 +30,7 @@
                     :key="paper.idx"
                 >
                     <td>
-                        <a :href="`#${paper.idx}`"> {{ showAuthors(paper.idx) }} </a>
+                        <a class="authors" :href="`#${paper.idx}`"> {{ showAuthors(paper.idx) }} </a>
                     </td>
                     <td
                         v-for="(subcate, index) in labels"
@@ -44,6 +44,7 @@
             </tbody>
         </table>
         <div id="referenceList">
+            <div class="heading">Reference List</div>
             <div
                 class="citation"
                 v-for="paper in paperList"
@@ -56,6 +57,7 @@
                     <span><b>{{ paper.title }}.</b></span>
                     {{ ` ` }}
                     <em>{{ paper.journal }}</em>.
+                    doi: <a :href="`http://dx.doi.org/${paper.doi}`">{{paper.doi}}</a>
                 </p>
             </div>
         </div>
@@ -106,12 +108,6 @@ const whatLabel: OverviewLabel[] = [
         type: 'visDataFormat',
         idx: "Hybrid",
     },
-    // {
-    //     name: "Interal Representation",
-    //     image: "internalRepresentation.png",
-    //     type: 'feature',
-    //     idx: "inputFeatureSpace",
-    // },
     {
         name: "Feature Engineering",
         image: "featureEng.png",
@@ -205,27 +201,27 @@ export default {
             if (column.type === 'Application') {
                 for (let app of paper[column.type]) {
                     if (app.match(column.idx)) {
-                        return 'rgb(126, 170, 85)'
+                        return 'rgb(150, 142, 133)'
                     }
                 }
             }
             else if (column.type === 'visDataFormat') {
                 if (paper.visDataFormat === column.idx) {
-                    return 'rgb(234, 179, 138)'
+                    return 'rgb(107, 78, 113)'
                 }
             }
             else if (column.type === 'feature' && paper.feature) {
                 if (paper.feature.method && paper.feature.method.match(column.idx)) {
-                    return 'rgb(234, 179, 138)'
+                    return 'rgb(62, 123, 155)'
                 }
             }
             else if (column.type === 'tasks') {
                 for (let task of paper[column.type]) {
                     if (task.task.match(column.idx)) {
-                        return 'rgb(78, 115, 190)'
+                        return 'rgb(140, 192, 132)'
                     }
                     else if (column.idx === 'Transformation' && task.task === 'ReverseEngineering') {
-                        return 'rgb(78, 115, 190)'
+                        return 'rgb(140, 192, 132)'
                     }
                 }
             }
@@ -257,27 +253,29 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.heading {
+    font-size: 22px;
+    font-weight: 700;
+    color: #363636;
+    height: 50px;
+    line-height: 30px;
+    background-color: transparent;
+    box-shadow: 0 1px 2px rgba(10, 10, 10, 0.1);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
 #overview {
     padding: 10px 10px 0px 10px;
     font-size: 16px;
     color: #2B2F33;
     margin: 10px 20px;
 
-    .heading {
-        font-size: 22px;
-        font-weight: 700;
-        color: #363636;
-        height: 50px;
-        line-height: 30px;
-        background-color: transparent;
-        box-shadow: 0 1px 2px rgba(10, 10, 10, 0.1);
-        display: flex;
-        align-items: center;
-        padding-left: 20px;
-    }
     .supplymentary {
         padding-left: 20px;
-        margin: 10px 0px 5px 0px;        
+        margin-bottom: 20px;        
     }
 
     table {
@@ -349,6 +347,9 @@ export default {
                         border-radius: 3px;
                         padding-left: 10px;
                     }
+                    .authors {
+                        color: #1890ff;
+                    }
                 }
             }
         }
@@ -356,11 +357,12 @@ export default {
 }
 #referenceList {
     margin: 80px 20px 0px 20px;
-    width: 900px;
+    width: 80%;
 
     .citation {
         font-size: 1em;
         line-height: 1.4;
+        padding-left: 20px;
     }
 }
 </style>
