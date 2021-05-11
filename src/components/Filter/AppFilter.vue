@@ -45,6 +45,7 @@
                         @click = "handleChange(label, applicationName[idx])"
                     >
                         {{ formatter(label) }}
+                        {{ calcFilterPapers(label, applicationName[idx]) }}
                     </a-tag>
                 </div>
             </div>
@@ -71,6 +72,7 @@ export default {
         const store = useStore();
 
         const state = reactive({
+            filterPaper: computed(() => store.getters.filterPapers as PaperList[]),
             selectedApps: [] as ApplicationString[],
             activeApps: computed(() => store.getters.activeTags.app),
             checked: [...new Array(4)].map(i=>false),
@@ -138,6 +140,26 @@ export default {
             }
         }
 
+        const calcFilterPapers = (tag: string, appName: string) => {
+            if (!checkDisable(tag, appName)) {
+                const tmp = `${appName}[${tag}]`
+                const results = state.filterPaper.filter(paper => {
+                    const apps = paper.Application.filter(app => {
+                        if (app === 'nan' && tmp === 'Unknown[Unknown]')
+                            return true
+                        else if (app === tmp) 
+                            return true
+                        else 
+                            return false
+                    })
+                    return apps.length > 0
+                })
+                return `(${results.length})`
+            }
+            else
+                return '(0)'
+        }
+
         watch(
             () => state.selectedApps,
             (newTasks, prevTasks) => {
@@ -174,7 +196,8 @@ export default {
             handleChange,
             checkTag,
             checkDisable,
-            onCheckApp
+            onCheckApp,
+            calcFilterPapers
         }
     }
 }

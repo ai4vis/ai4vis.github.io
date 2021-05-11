@@ -26,6 +26,7 @@
                     @click = "handleChange(label, axisName)"
                 >
                     {{ formatter(label) }}
+                    {{ calcFilterPapers(label, axisName) }}
                 </a-tag>
             </div>
         </div>
@@ -50,7 +51,7 @@ export default {
         const store = useStore();
 
         const state = reactive({
-            paperList: computed(() => store.state.paperList as PaperList[]),
+            filterPaper: computed(() => store.getters.filterPapers as PaperList[]),
             selectedFeatures: {} as FEATURE,
             activeFeatures: computed(() => store.getters.activeTags.feature),
             features: features
@@ -106,6 +107,26 @@ export default {
                 return false
         }
 
+        const calcFilterPapers = (tag: string, axisName: string) => {
+            if (!checkDisable(tag, axisName)) {
+                const results = state.filterPaper.filter(paper => {
+                    if (paper.feature) {
+                        for (let ent of Object.entries(paper.feature)) {
+                            if (axisName === ent[0] && tag === ent[1]) {
+                                return true
+                            }
+                        }
+                        return false
+                    }
+                    else
+                        return false
+                })
+                return `(${results.length})`
+            }
+            else
+                return '(0)'
+        }
+
         watch(
             () => state.selectedFeatures,
             (newFeatures, prevFilters) => {
@@ -126,6 +147,7 @@ export default {
             checkTag,
             cancelAll,
             checkDisable,
+            calcFilterPapers,
         }
 
     }

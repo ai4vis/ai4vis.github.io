@@ -125,5 +125,11 @@ type TaskCard = {
     }
 }
 
+type OverviewLabel = {
+    name: string;
+    image: string;
+    type: 'tasks' | 'Application' | 'feature' | 'visDataFormat';
+    idx: string;
+}
 // declare const TYPES = ['a', 'b', 'c'] as const; // TS3.4 syntax
 // type yourType = typeof TYPES[number]; // 'a'|'b'|'c';

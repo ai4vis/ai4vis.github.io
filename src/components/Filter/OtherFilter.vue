@@ -25,6 +25,7 @@
                 @click = "handleChange(filter, filterName)"
             >
                 {{ formatter(filter) }}
+                {{ calcFilterPapers(filter, filterName) }}
             </a-tag>
         </div>
 
@@ -47,7 +48,7 @@ export default {
         const store = useStore();
 
         const state = reactive({
-            paperList: computed(() => store.state.paperList as PaperList[]),
+            filterPaper: computed(() => store.getters.filterPapers as PaperList[]),
             selectedOthers: {
                 venueField: [] as string[],
                 visDataFormat: [] as string[],
@@ -110,6 +111,18 @@ export default {
             state.selectedOthers[fName] = [] 
         }
 
+        const calcFilterPapers = (tag: string, filterName: string) => {
+            if (!checkDisable(tag, filterName)) {
+                const results = state.filterPaper.filter(paper => {
+                    // @ts-ignore
+                    return paper[filterName] === tag
+                })
+                return `(${results.length})`
+            }
+            else
+                return '(0)'
+        }
+
         watch(
             () => state.selectedOthers,
             (newFilters, prevFilters) => {
@@ -130,7 +143,8 @@ export default {
             checkTag,
             isSelected,
             cancelAll,
-            checkDisable
+            checkDisable,
+            calcFilterPapers
         }
 
     }

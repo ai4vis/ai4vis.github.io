@@ -52,6 +52,7 @@
                         @click = "handleChange(label, axisName, taskName[idx])"
                     >
                         {{ formatter(label) }}
+                        {{ calcFilterPapers(label, axisName, taskName[idx]) }}
                     </a-tag>
                 </div>
             </div>
@@ -78,6 +79,7 @@ export default {
         const store = useStore();
 
         const state = reactive({
+            filterPaper: computed(() => store.getters.filterPapers as PaperList[]),
             selectedTasks: [] as TASK,
             activeTasks: computed(() => store.getters.activeTags.tasks),
             checked: [...new Array(8)].map(i=>false),
@@ -162,6 +164,20 @@ export default {
             }
         }
 
+        const calcFilterPapers = (tag: string, axisName: string, subTaskName: string) => {
+            if (!checkDisable(tag, axisName, subTaskName)) {
+                // console.log(tag, axisName, subTaskName)
+                const results = state.filterPaper.filter(paper => {
+                    const tasks = paper.tasks.filter(task => task.task.match(subTaskName))
+                    //@ts-ignore
+                    return tasks.filter(t => t.label[axisName] === tag).length > 0
+                })
+                return `(${results.length})`
+            }
+            else
+                return '(0)'
+        }
+
         watch(
             () => state.selectedTasks,
             (newTasks, prevTasks) => {
@@ -198,7 +214,8 @@ export default {
             handleChange,
             checkTag,
             checkDisable,
-            onCheckTask
+            onCheckTask,
+            calcFilterPapers
         }
     }
 }
