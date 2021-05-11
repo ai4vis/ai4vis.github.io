@@ -345,7 +345,7 @@ export default {
                         height: 15px;
                         background: #f0f0f0;
                         border-radius: 3px;
-                        padding-left: 10px;
+                        margin-left: 10px;
                     }
                     .authors {
                         color: #1890ff;
