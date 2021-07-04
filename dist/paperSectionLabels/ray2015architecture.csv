@@ -1,0 +1,12 @@
+sectionNumber,title,label,remark
+1,Introduction,,
+2,RELATEDWORK
+3,DOCUMENT ANALYSIS
+3.1,Extraction of Figures: Generic Approach
+3.2,Improving Text/Graphics Segmentation
+3.3,Extraction of Figure Metadata and Matching
+4,IMAGE PROCESSING MODULE
+4.1,Image Classification,Feature[Engineering][Graphics]|Feature[Engineering][Graphics]|ReverseEngineering[ChartRecognition],"we scaled each image in our dataset to a dimension of 128x128 and converted them into binary images..."
+4.2,Analysis of Line Graphs for Data Extraction,ReverseEngineering[Composing]
+5,SEARCH ENGINE WITH SEMI AUTOMATIC DATA EXTRACTION MODULE,Querying[Keyword][Best-Match]
+6,CONCLUSIONS AND FUTUREWORK

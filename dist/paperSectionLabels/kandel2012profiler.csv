@@ -1,0 +1,16 @@
+sectionNumber,title,label,remark
+1,Introduction,,
+2,RELATEDWORK
+2.1,Classifying Data Anomalies
+2.2,Data Cleaning Tools
+2.3,Visual Analysis Systems
+3,USAGE SCENARIO
+4,SYSTEM ARCHITECTURE,Recommend[Hybrid]
+4.1,Type Registry
+4.2,Detector,Recommend[Data][Opt],"applies a collection of type-specific data mining routines to identify anomalies in data"
+4.3,View Recommendation
+4.3.1,Mutual Information,Compare[Data][Distance]
+4.3.2,Recommendation,Recommend[Encoding][Opt],"we recommend the view specification ... that minimizes the quantity D"
+4.4,View Manager,
+5,INITIAL USAGE
+6,CONCLUSION

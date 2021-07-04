@@ -1,0 +1,10 @@
+sectionNumber,title,label,remark
+1,Introduction,,
+2,RELATED WORK
+2.1,Data Extraction from Charts
+2.2,Crowdsourcing
+3,OVERVIEW
+4,TRUTH INFERENCE,ReverseEngineering[Composing],"In this section, we will introduce how to infer the truth of each data point given multiple workers’ answers, considering characteristics of tuple extraction tasks."
+5,TASK ASSIGNMENT
+6,EVALUATION
+7,CONCLUSION

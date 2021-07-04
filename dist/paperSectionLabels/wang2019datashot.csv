@@ -1,0 +1,23 @@
+sectionNumber,title,label,remark
+1,Introduction,
+2,RELATED WORK
+2.1,Data-Driven Storytelling
+2.2,Visualization Recommendation
+2.3,Infographic Creation Tools,
+3,SURVEY ON FACT SHEET DESIGN
+3.1, The Fact Sheet Dataset
+3.2,Qualitative Analysis
+3.3,Sheet-Level Design
+3.4,Element-Level Design
+4,DATASHOT,Recommend[Hybrid]
+4.1,Design Goals
+4.2,System Pipeline
+4.3,Fact Formulation
+4.4,Fact Extraction,Recommend[Data][Opt],"we need to select the top-n data facts from the related facts."
+4.5,Fact Composition,Recommend[Data][Opt],"we need to select the top-n data facts from the related facts."
+4.6,Visual Synthesis,Recommend[Encoding][Prediction],"we train a decision tree model with the 793 exemplary infographic elements, taking data fact types and data types as the input of the model"
+5,EVALUATION
+5.1,Use Cases
+5.2,User Study
+6,DISCUSSION
+7,CONCLUSION AND FUTURE WORK

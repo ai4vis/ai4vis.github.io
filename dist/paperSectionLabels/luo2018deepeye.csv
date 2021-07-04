@@ -1,0 +1,9 @@
+sectionNumber,title,label,remark
+1,Introduction,
+2,OVERVIEW
+3,"MACHINE LEARNING-BASED VISUALIZATION RECOGNITION RANKING AND SELECTION",Assess[Ranking][ML]|Feature[Engineering][Data], "Visualization Recognition: The first task is, given a column combination of a dataset and a specified visualization type, to decide whether the output (i.e., the visualization node) is good or bad. Visualization Selection: Learning to rank model can be used directly for the visualization selection problem: given a set of visualization nodes (and their features vectors) as input, outputs a ranked list."
+4,"PARTIAL ORDER-BASED VISUALIZATION SELECTION",Assess[Ranking][ML],"Visualization Selection: Learning to rank model can be used directly for the visualization selection problem: given a set of visualization nodes (and their features vectors) as input, outputs a ranked list."
+5,OPTIMIZING PARTIAL ORDER-BASED APPROACH, Recommend[Hybrid][Opt],"present algorithms that utilize these rules to compute top-k visualizations"
+6,EXPERIMENTS
+7,RELATED WORK
+8,CONCLUSION AND FUTURE WORK

@@ -1,0 +1,10 @@
+sectionNumber,title,label,remark
+1,Introduction,,
+2,Related Work
+3,THE GRAPHICAL PRESENTATION PROBLEM
+4,APPROACH,
+5,EXPRESSIVENESS,Assess[Ranking][H]
+6,EFFECTIVENESS,Assess[Ranking][H]
+7,COMPOSITION,Recommend[Encoding][Opt],"to develop an ad hoc list of graphical languages that can be filtered with the expressiveness criteria and ordered with the effectiveness criteria for each input."
+8,IMPLEMENTATION
+9,MEDIA SENSITIVITY

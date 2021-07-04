@@ -1,0 +1,21 @@
+sectionNumber,title,label,remark
+1,Introduction,,
+2,RELATED WORK
+2.1,Automated-Insights and NLG-based Visualization Systems
+2.2,Visualization Recommendation
+2.3,Embellishing Visualizations For Communication
+3,VODER,Recommend[Hybrid]
+3.1,Design Considerations
+3.2,User Interface,
+3.3,Generating and Ordering Data Facts,Recommend[Data][Opt],"Voder currently uses a set of predefined heuristics to generate potentially useful data facts associated with a specified visualization"
+3.4,Mappings Between Data Facts & Visualizations and Embellishments,Recommend[Encoding][Opt],"Table 1A summarizes the at- tribute combinations and corresponding visualizations Voder currently supports for each combination."
+3.5,Keyword-based Search Queries Indexing,Querying[Keyword][Best-Match],"cosine similarity"
+4,PRELIMINARY USER STUDY
+4.1,Participants and Experimental Setup
+4.2,Procedure
+4.3,Participant Feedback
+5,DISCUSSION
+5.1,Iterating between Visualizations and Facts during Exploration
+5.2,Potential Risks: Trust and Deception
+6,LIMITATIONS AND FUTURE WORK
+7,CONCLUSION
