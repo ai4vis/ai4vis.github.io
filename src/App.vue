@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="myNav">
-        <span class="title">Survey on Artificial Intelligence Approaches for Visualization Data</span> <br>
+        <span class="title">AI4VIS: Survey on Artificial Intelligence Approaches for Data Visualization</span> <br>
         <a-menu v-model:selectedKeys="current" mode="horizontal" class="navSelector" :style="{background: '#263459', color: 'white'}">
           <a-menu-item key="introduction" :style="{fontSize: '16px', fontWeight: '500'}"> Introduction </a-menu-item>
           <a-menu-item key="taxonomy" :style="{fontSize: '16px', fontWeight: '500'}">Taxonomy</a-menu-item>

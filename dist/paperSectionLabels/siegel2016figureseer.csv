@@ -1,8 +1,0 @@
-sectionNumber,title,label,remark
-1,Computer Vision for Scholarly Big Data,,
-2,Related Work
-3,Figure Parsing Approach,ReverseEngineering[ChartRecognition]|ReverseEngineering[ElementClustering]|ReverseEngineering[Composing]|Feature[Learning][Graphics]
-4,FigureSeer Dataset,DatasetCollection
-5,Figure Parsing Results
-6,Applications: Query Answering,Querying[Structured][Exact-Match],"We assume a simple query representation with a structured template that has two parts. We retrieve all relevant figures (across multiplepapers) from our corpus that match the requested dataset and metric by search- ing the figure meta-data"
-7,Discussion

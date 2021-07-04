@@ -1,9 +1,0 @@
-sectionNumber,title,label,remark
-1,Introduction,,
-2,RELATEDWORK
-3,FIGURE EXTRACTION,DatasetCollection
-4,COMPOUND FIGURE DETECTION,ReverseEngineering[ChartRecognition]
-5,CLASSIFICATION OF FIGURES,ReverseEngineering[ChartRecognition]
-6,FIGURE TEXT CLASSIFICATION,ReverseEngineering[ElementDetection]|ReverseEngineering[ElementClustering]
-7,NATURAL LANGUAGE SUMMARYFOR A LINE GRAPH,Reasoning[Summarization][H],"identify the trends and combined with the previous metadata to produce the final metadata for a line graph"
-8,CONCLUSION AND FUTUREWORK

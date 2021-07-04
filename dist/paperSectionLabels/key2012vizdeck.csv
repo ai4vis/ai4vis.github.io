@@ -1,8 +1,0 @@
-sectionNumber,title,label,remark
-1,Introduction,,
-2,What Will the User See and Do?
-3,Dashboard Model,Assess[Score][ML]|Recommend[Data][Opt]|Feature[Engineering][Data],"VizDeck streamlines the trial and error process of creating these ensembles by enabling users to create dashboards and test them quickly. To make recommendations, we train a model of visualization quality that relates statistical features of the dataset to particular vizlets."
-4,System Implementation,
-5,Initial Results
-6,Related Work
-7,Conclusions and Future Work

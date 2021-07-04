@@ -1,9 +1,0 @@
-sectionNumber,title,label,remark
-1,Introduction,,
-2,SYSTEM OVERVIEW
-3,DEMONSTRATION OVERVIEW
-4,TECHNICAL DETAILS
-4.1,Text-to-Visualization,Recommend[Hybrid][Opt],"The basic idea is that we first learn some visualization decision rules and then embed the rules into the text-to-visualizations method to directly prune bad visualizations"
-4.2,Visualization-to-Text,Reasoning[Summarization][H],"We use a rule-based method to translate each visualization query into a natural language"
-4.3,Visualization Ranking,Recommend[Hybrid][Opt]|Assess[Ranking][ML]|Feature[Engineering][Data],"Given a set of visualizations V0, the Vi- sualization Ranking module will rank V0 and return top ones to the user. We use the learning-to-rank techniques to learn the features from known good visualizations. More speci?cally, we consider the following features of a dataset D: the data type of a column (e.g., categorical, numerical, and temporal), the number ofdistinct values ofa column, the number of tuples in a column..."
-4.4,Faceted Navigation,
