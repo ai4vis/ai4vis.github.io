@@ -1,9 +1,0 @@
-﻿sectionNumber,title,label,remark
-1,Introduction,,
-2,Related work,,
-3,deep frameworks for chart classification,ReverseEngineering[ChartRecognition]| Feature[Learning][Graphics] ,
-4,model learning,ReverseEngineering[ChartRecognition]| Feature[Learning][Graphics] ,
-5,experiments,,
-5.1,dataset,,
-5.2,comparison results,,
-6,conclusion,,

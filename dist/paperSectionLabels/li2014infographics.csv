@@ -1,9 +1,0 @@
-sectionNumber,title,label,remark
-1, Introduction,,
-2 ,Problem Formulation,,
-2.1, Structural Content of Infographics,,
-2.2, Message Content of Infographics,,
-3, Retrieval Methodology,Querying[Keyword][Best-Match],"Given a query, our retrieval methodology first analyzes the query to identify the requisite characteristics of infographics that will best satisfy the user’s in- formation need"
-4, Experimental Results and Discussion,,
-5, Related Work,,
-6, Conclusion and Future Work,,

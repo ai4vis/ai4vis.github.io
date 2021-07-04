@@ -1,9 +1,0 @@
-sectionNumber,title,label,remark
-1, Introduction,,
-2, Related Work,,
-3, Deconstruction,ReverseEngineering[ChartRecognition]|ReverseEngineering[ElementClustering]|ReverseEngineering[Composing],
-4, Converting a D3 Chart into a Style Template,ReverseEngineering[ChartRecognition]|ReverseEngineering[ElementClustering]|ReverseEngineering[Composing],
-5, Applying Style Template to Source Data Table,,
-6, Applying Style Template to Source D3 Chart,,
-7, Results,,
-8, Conclusion,,

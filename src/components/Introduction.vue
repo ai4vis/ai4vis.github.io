@@ -37,7 +37,7 @@
     it facilitates an organized discussion reconciling distinct visualization paper types, that is, a <i>technique</i> paper focuses on a single task, while a <i>system</i> paper might accomplish multiple tasks.
     In total, we note seven common tasks.</li>
                     </ul>
-                    <img src="@/assets/overview.jpg" />
+                    <img height="300" src="@/assets/overview.png" />
                 </div>
             </div>
         </div>

@@ -1,8 +1,0 @@
-sectionNumber,title,label,remark
-1,Introduction,,
-2,QUERY INTERFACE AND LANGUAGE
-2.1,Query Interface,
-2.2,Query Language,Querying[Structured][Best-Match],"It supports complex, faceted queries which allows end-users to create highly targeted searches. Given a keyword query, the search ranker computes a relevance score for each diagram and presents a ranked list of diagrams as the results"
-3,SOFTWARE ARCHITECTURE
-4,DEMONSTRATION
-5,CONCLUSIONS

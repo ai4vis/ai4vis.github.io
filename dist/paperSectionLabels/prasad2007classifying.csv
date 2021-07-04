@@ -1,9 +1,0 @@
-﻿sectionNumber,title,label,remark
-1,Introduction,,
-1.1,Overview of the Approach and Related Work,,
-2,REGION SEGMENTATION FEATURES,Feature[Engineering][Graphics],
-3,EDGE CONTINUITY FEATURES,Feature[Engineering][Graphics],
-4,SIFT,Feature[Engineering][Graphics],
-5,GRADIENT DESCRIPTORS,Feature[Engineering][Graphics],
-6,CLASSIFICATION,ReverseEngineering[ChartRecognition],
-7,EXPERIMENTAL RESULTS AND SUMMARY,,

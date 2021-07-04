@@ -1,6 +1,0 @@
-sectionNumber,title,label,remark
-1,Introduction,,
-2,Related Works
-3,STL-CQA,Reasoning[VQA][ML]|Feature[Learning][Graphics],"We focus on three major things - (a) Types of chart elements (b) Position of chart elements (c) Color and pattern of non-textual elements in charts."
-4,Experiments
-5,Discussion and Limitations
