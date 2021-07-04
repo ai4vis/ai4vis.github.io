@@ -1,0 +1,13 @@
+sectionNumber,title,label,remark
+1,Introduction,,
+2,Related Work
+3,LEAF-QA dataset,DatasetCollection
+4,LEAF-Net baseline,Reasoning[VQA][ML]
+4.1,Chart Parsing,ReverseEngineering[ElementDetection]|ReverseEngineering[ElementClustering],"A Mask-RCNN network using a Resnet-101 back-bone has been used to detect and classify elements of the provided chart images"
+4.2,Question-Answer Encoding,Feature[Learning][Graphics],"{Note: the features from the visualization images are fused with features from natural language questions}"
+4.3,Attention Network ,Feature[Learning][Graphics]
+5,Evaluation
+5.1,Chart Parsing Evaluation Metric
+5.2,Question Answering Evaluation Evaluation
+6,Comparisons on DVQA and FigureQA
+7,Conclusion and Future Direction

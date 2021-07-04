@@ -1,0 +1,13 @@
+sectionNumber,title,label,remark
+1,Introduction,,
+2,Background,,
+2.1,Visualization Specification Languages,,
+2.2,Vega-Lite,,
+3,Visualization Recommendation,,
+3.1,Types of Recommender Systems,,
+3.2,Recommendation Process,Recommend[Hybrid][Opt],"A candidate visualization must satisfy two types of constraints. With a set of qualified candidates, the system then suggests the top item"
+4,Visualization Query Language,,
+5,Example CompassQL Queries,,
+6,Discussion & Future Work,,
+7,Acknowledgments,,
+8,References,,

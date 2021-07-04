@@ -1,0 +1,10 @@
+sectionNumber,title,label,remark
+1,Introduction,,
+2,Related Work
+3,Background
+3.1,Sequence-Generation Model
+3.2,Sequence-Level Training
+4,FigCAP,DatasetCollection
+5,Captioning Model,Feature[Learning][Graphics]|Reasoning[Summarization][ML],"a Residual Network encodes an input figure into Feature Map."
+6,Experimental Evaluations
+7,Conclusion

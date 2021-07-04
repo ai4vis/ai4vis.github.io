@@ -1,0 +1,26 @@
+sectionNumber,title,label,remark
+1,Introduction,,
+2,Related Work,,
+2.1,Annotation Assisted Story-telling,,
+2.2,Automatically Generating Annotations,,
+2.3,Extracting Information from Visualizations,,
+2.4,Natural Language Interface,,
+3,Automation of Vis Annotation,,
+3.1,The Workflow,,
+3.2,Describing a Visualization,,
+3.3,Object Detection,,
+3.3.1,Data Entity Detection,ReverseEngineering[ElementDetection],"Without loss of generality, we currently only consider three types of shapes: rectangles, circles, and sectors"
+3.3.2,Auxiliary Entity Detection,ReverseEngineering[ElementClustering],"Four types of auxiliary entities are commonly seen in a vi- sualization: axes, titles, legends, and data labels"
+3.3.3,Mask-RCNN for Visual Entity Detection,ReverseEngineering[ElementDetection],
+3.3.4,Contour Correction,ReverseEngineering[ElementDetection],
+3.3.5,Visual Property Detection,ReverseEngineering[ElementDetection],"to extract visual properties of each data entity."
+3.3.6,Text Detection,ReverseEngineering[ElementDetection],
+3.4,Natural Language Processing,,
+3.5,Annotation,Reasoning[Summarization][H],
+4,Evaluation,,
+4.1,User Study,,
+4.2,Annotation Gallery,,
+5,Discussion and Future Work,,
+6,Conclusion,,
+7,Acknowledgment,,
+8,References ,,

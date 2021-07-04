@@ -1,0 +1,15 @@
+﻿sectionNumber,title,label,remark
+1,Introduction,,
+2,Related work,,
+2.1,Chart type classification,,
+2.2,text localization and detection and recoginition,,
+2.3,data extraction,,
+3,methodology,,
+3.1,chart classification,ReverseEngineering[ChartRecognition]|Feature[Learning][Graphics],"we trained a CNN model for chart type classification"
+3.2,corpora for data recovery,DatasetCollection,
+3.3,textual component extraction,ReverseEngineering[ElementDetection]|Feature[Learning][Graphics],"our goal is to extract text elements in a bar chart and classify them according to their roles"
+3.4,Graphical component extraction,ReverseEngineering[ElementDetection]|ReverseEngineering[ElementClustering],
+3.5,Recovering chart data,ReverseEngineering[Composing]
+4,extraction results,,
+5,limitations and future work,,
+6,conclusion,,

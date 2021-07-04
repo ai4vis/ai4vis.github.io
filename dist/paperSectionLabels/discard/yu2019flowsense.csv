@@ -1,0 +1,12 @@
+sectionNumber,title,label,remark
+1,Introduction,,
+2,RELATED WORK
+2.1,Dataflow Visualization System (DFVS)
+2.2,NLI for Data Visualization
+2.3,Comparison with Other NLIs
+2.4,Semantic Parsing
+3,SEMANTIC PARSER,NaturalLanguage
+4,QUERY EXECUTION,NaturalLanguage
+5,EVALUATION
+6,DISCUSSION AND LIMITATIONS
+7,CONCLUSIONS

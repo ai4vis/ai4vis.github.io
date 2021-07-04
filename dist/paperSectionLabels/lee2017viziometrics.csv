@@ -1,0 +1,10 @@
+sectionNumber,title,label,remark
+1, Introduction,,
+2, Related Work,,
+3, Dataset and Methodology,,
+3.1, Figure Analysis,ReverseEngineering[ChartRecognition]|Feature[Engineering][Graphics],"the analysis pipeline used to perform classification. The primary technique we used to classify the images is called Bag of Features."
+3.2,Measuring Scholarly Influence,,
+4, Exploring Visual Patterns in the Literature,Mine[Design][Statistics],
+5, A Browser for the Visual Literature,,
+6, Future Work,,
+7, Conclusions,,

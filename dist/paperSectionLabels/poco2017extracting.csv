@@ -1,0 +1,13 @@
+sectionNumber,title,label,remark
+1,Introduction,,
+2,RELATED WORK
+2.1,Color Design for Visualization
+2.2,Automatic Chart Interpretation & Retargeting
+3,DATA COLLECTION AND ANNOTATION,DatasetCollection
+4,COLOR MAPPING EXTRACTION METHOD,ReverseEngineering[ElementDetection]|ReverseEngineering[ElementClustering]|ReverseEngineering[Composing]
+5,END-TO-END PERFORMANCE
+6,APPLICATIONS OF COLOR MAPPING EXTRACTION
+6.1,Automatic Recoloring
+6.2,Interactive Overlays
+7,LIMITATIONS
+8,CONCLUSION

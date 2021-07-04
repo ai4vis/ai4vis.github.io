@@ -1,0 +1,8 @@
+﻿sectionNumber,title,label,remark
+1,Introduction,,
+2,system overview,,
+2.1,Image Segmentation and Text Detection,ReverseEngineering[ElementDetection],
+2.2,Image Classification,ReverseEngineering[ChartRecognition]|Feature[Engineering][Graphics],"In this section, we extract geometric features from the graphical components, to classify the chart images"
+2.3,Information Extraction and Data Depiction,ReverseEngineering[Composing],
+3,SYSTEM EVALUATION AND APPLICATIONS,,
+4,CONCLUSION AND FUTURE WORK,,

@@ -1,0 +1,19 @@
+sectionNumber,title,label,remark
+1,Introduction,,
+2,RELATED WORK
+2.1,Structures of Narrative Data Visualizations
+2.2,Decomposing Data Visualizations
+2.3,Authoring Tools for Narrative Visualizations
+3,UNDERSTANDING END USERS
+4,UNDERSTANDING DATA VISUALIZATION
+4.1,Components of a Visualization
+4.2,Relationships between Components
+5,NARVIS: ASLIDESHOW AUTHORING TOOL
+5.1,Phase1: Input Analysis,ReverseEngineering[ElementClustering],"Narvis processes a visualization design, extracts the graphic elements from the visual design, and classifies these elements into groups for further editing"
+5.2,Phase2: Authoring,
+5.3,Phase3: Viewing,
+6,EVALUATION
+6.1,Study Design
+6.2,Results
+7,DISCUSSION
+8,CONCLUSION AND FUTURE WORK

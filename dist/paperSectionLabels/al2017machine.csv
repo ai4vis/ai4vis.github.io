@@ -1,0 +1,8 @@
+﻿sectionNumber,title,label,remark
+1,Introduction,,
+2,Related work,,
+3,chart component extraction,ReverseEngineering[ElementDetection],
+4,component role classifaction,ReverseEngineering[ElementClustering],"role labeling or role classification (to determine labels/marks etc)"
+5,semantic analysis,ReverseEngineering[Composing],"In this section we describe the various how we produce machine-usable information from the data extracted from bar chart images"
+6,evaluation,,
+7,conclusion,,

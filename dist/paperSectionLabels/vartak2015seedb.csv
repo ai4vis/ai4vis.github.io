@@ -1,0 +1,9 @@
+sectionNumber,title,label,remark
+1,Introduction,,
+2,PROBLEM STATEMENT,Compare[Data][Distance],"we define the utility of Vi as the distance between these two probability distributions"
+3,FRONT-END&ARCHITECTURE
+4,EXECUTION ENGINE,Recommend[Data][Opt],"sharing and pruning optimizations designed to efficiently generate visualization recommenda- tions"
+5,PERFORMANCE EVALUATION
+6,USER STUDY
+7,UTILITY METRICS: DISCUSSION
+8,RELATEDWORK

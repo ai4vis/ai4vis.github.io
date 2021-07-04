@@ -1,0 +1,12 @@
+sectionNumber,title,label,remark
+1,Introduction,,
+2,Related Work
+3,The PlotQA dataset
+4,Proposed Model
+4.1,Visual Elements Detection (VED),ReverseEngineering[ElementDetection]
+4.2,Object Character Recognition (OCR),ReverseEngineering[ElementDetection]
+4.3,Semi-Structured Information Extraction (SIE),ReverseEngineering[ElementDetection]
+4.4,Table Question Answering,Reasoning[VQA][ML]
+5,Experiments
+6,Observations and Results
+7,Conclusion

@@ -1,0 +1,12 @@
+sectionNumber,title,label,remark
+1, Introduction,,
+2, PRELIMINARIES AND RELATED WORK,,
+3, Diversifying Recommended Views,Compare[Data][Distance],"we describe the content-based deviation metric for assessing the importance of each view (Sec. 3.1), together with our context-based measure of the (dis)similarity between different views (Sec. 3.2)"
+4, The DiVE Schemes,Recommend[Data][Opt],"recommending diversified top views"
+5, The DVE Schemes with Pruning,Recommend[Data][Opt],"recommending diversified top views"
+5.1, Pruning for DiVE-Swap,,
+5.2, Pruning for DiVE-Greedy,,
+5.3, Predictive Interval for Adaptive Bounds,,
+6, Experimental Evaluation,,
+7, Conclusions,,
+8,References,,

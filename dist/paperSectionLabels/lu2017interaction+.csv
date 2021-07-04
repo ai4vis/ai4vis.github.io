@@ -1,0 +1,12 @@
+sectionNumber,title,label,remark
+1,Introduction,,
+2,RELATED WORK
+2.1,Interactions
+2.2,Web-based Visualization Toolkits
+2.3,Surface Enhancement
+3,OVERVIEW,ReverseEngineering[ElementDetection]|ReverseEngineering[ElementClustering]|ReverseEngineering[Composing],"Then Interaction+ parses the webpage’s HTML Document Object Model (DOM) to extract visual information."
+4,Interaction+
+5,USAGE SCENARIOS
+6,EVALUATION
+7,DISCUSSION
+8,CONCLUSION

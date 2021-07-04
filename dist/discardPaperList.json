@@ -1,0 +1,32 @@
+[
+    {
+        "Important": "",
+        "Paper": "MuVE: Efcient Multi- Objective View Recommendation for Visual Data Exploration",
+        "Venue": "ICDE",
+        "Year": "2016",
+        "Key": "ehsan2016muve",
+        "doi": "10.1109/ICDE.2016.7498285",
+        "Data": "Program",
+        "Application": "AutoGen (data)"
+    },
+    {
+        "Important": "",
+        "Paper": "Information retrieval approach to meta-visualization",
+        "Venue": "Machine Learning",
+        "Year": "2015",
+        "Key": "peltonen2015information",
+        "doi": "10.1007/s10994-014-5464-x",
+        "Data": "Program",
+        "Application": "Vis Analysis (data)"
+    },
+    {
+        "Important": "",
+        "Paper": "What makes a visualization memorable?",
+        "Venue": "InfoVis",
+        "Year": "2013",
+        "Key": "borkin2013makes",
+        "doi": "10.1109/TVCG.2013.234",
+        "Data": "Graphics",
+        "Application": ""
+    }
+]
