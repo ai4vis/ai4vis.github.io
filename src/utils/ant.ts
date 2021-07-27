@@ -2,7 +2,7 @@ import {
     Slider,
     Tooltip,
     Modal,
-    Icon,
+    // Icon,
     Tag,
     Divider,
     Checkbox,
@@ -16,7 +16,7 @@ const ant = {
         Vue.component(Slider.name, Slider)
         Vue.component(Tooltip.name, Tooltip)
         Vue.component(Modal.name, Modal)
-        Vue.component(Icon.name, Icon)
+        // Vue.component(Icon.name, Icon)
         Vue.component(Tag.name, Tag)
         Vue.component(Divider.name, Divider)
         Vue.component(Checkbox.name, Checkbox)
